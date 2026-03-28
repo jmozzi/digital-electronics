@@ -6,6 +6,7 @@
 	- when Silicon atoms come together these valence electrons like to pair up tightly, a `crystal lattice`
 	- *no free electrons* to move -> `insulator`
 	- if we try pass current through it, it won't work --> insulator
+
 ![Pasted image 20251106143945](../images/Pasted%20image%2020251106143945.png)
 ### doping
 - if we mix `silicon` with other elements we can change that property 
@@ -18,6 +19,7 @@
 	- now if we add a charge, the free electrons will be attracted *to positive side* of the battery making room for more to follow
 	- we've created a current, and it is *moving towards positive voltages*
 - N-Type silicon has `electrons` as majority carriers
+
 ![Pasted image 20251106144217](../images/Pasted%20image%2020251106144217.png)
 #### P-Type silicon - electron holes
 - now we add `Boron`

@@ -38,6 +38,7 @@ source: TCM IoT course
 - timing circuit: used to control timing durations
 - Electrolytics can **age**, drying out over 5–20 years depending on quality, use, and temperature.
 - Heat accelerates degradation. Use high-temp rated caps (105°C or more) for better lifespan.
+
 ![Pasted image 20250815142920](../images/Pasted%20image%2020250815142920.png)
 ### disk ceramic capacitor
 - great for fairly low capacitance
@@ -48,6 +49,7 @@ source: TCM IoT course
 - Work in **RF or EMI filtering** circuits
 - Physically larger spacing between leads = better for isolation
 - Easier to use in DIY or high-reliability designs
+
 ![Pasted image 20250815142936](../images/Pasted%20image%2020250815142936.png)
 ### surface mount capacitor (ceramic)
 - **Non-polarized**: Can go in either direction (unlike electrolytic caps)

@@ -4,10 +4,13 @@
 - 2 transistors built on top of a silicon base
 - have to understand `N-type` and `P-type` transistors first:
 symbol:
+
 ![Pasted image 20251101185050](../images/Pasted%20image%2020251101185050.png)      
 simplified:
+
 ![Pasted image 20251101185112](../images/Pasted%20image%2020251101185112.png)
 details:
+
 ![Pasted image 20251105200002](../images/Pasted%20image%2020251105200002.png)
 
 # how the inverter works - standard cell
@@ -29,7 +32,9 @@ details:
 	- when `0` V is applied, the P-type will allow electricity to flow through the channel and is considered `ON`, and the `1V` rail is connected through the local interconnect wires and vias through the P-Types channel to the output
 	- whereas the `N-type` will be `OFF`
 	- and vice versa, when `1` V is applied the P-type is OFF, and N-type is ON, allowing `0` V from the Ground Rail to travel to the output
+
 ![Pasted image 20251105204314](../images/Pasted%20image%2020251105204314.png)  
+
 ![Pasted image 20251105204546](../images/Pasted%20image%2020251105204546.png)
 > so, when `1` Volt is applied to the input, the output is connected to the ground rail
 > when `0` Volt is applied to the input, the output is connected to the power rail

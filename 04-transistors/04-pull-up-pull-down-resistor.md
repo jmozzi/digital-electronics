@@ -8,6 +8,7 @@
 - To prevent **short circuits**: When a switch is used to connect a pin to ground or `Vcc` the resistor limits the current flow. Without the resistor, closing the switch could create a direct short circuit, potentially damaging the components
 ### Example simple circuit with button
 ok, and that all means.... what?: 
+
 ![Pasted image 20251109091357](../images/Pasted%20image%2020251109091357.png)
 - when button is pressed, voltage travels through the switch to the input pin of the microcontroller
 	- the microcontroller reads off the pin, sees the voltage and reports a `high`
@@ -28,6 +29,7 @@ but that's just a convention; could be the other way around: register `low` when
 	> Ohm's law: without resistance, a large amount of current will flow, creating a ton of heat throughout the microcontroller and any components in the way -> burn out
 	- that's why `pull resistors` are of fairly high resistance as sending a signal to a microcontroller doesn't need a ton of current (we typically only want current at `microampere` scale to detect a signal)
 	- particularly when circuit is closed a lot, cause then we have more time that connection from voltage source to GND exists and current moves through that resistor
+	
 ![Pasted image 20251109095601](../images/Pasted%20image%2020251109095601.png)
 ### Pull-up resistor:
 - Reverse to pull-down: --> *Connects the signal line to **Vcc (positive rail)** through a resistor.*

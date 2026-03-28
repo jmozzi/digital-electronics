@@ -19,6 +19,7 @@ Inside CPU is a special component that houses all these circuits
 - is that how instruction code works and can be read??? yes!
 - that's how the binary decoder works
 	- with an input, there will only be one output with value 1
+
 ![Pasted image 20251103121421](../images/Pasted%20image%2020251103121421.png)
 - assembly code is just a human-friendly representation of machine code
 ![Pasted image 20251103121716](../images/Pasted%20image%2020251103121716.png)
@@ -26,6 +27,7 @@ Inside CPU is a special component that houses all these circuits
 - so we could assume that of `8 bit instruction code`, 
 	- the *first 2 decide whether it's arithmetic or non-arithmetic*, 
 		- we could do this with NOR gates
+		
 ![Pasted image 20251103121836](../images/Pasted%20image%2020251103121836.png)
 - and *if arithmetic*, the *next two what sort of arithmetic (like add, subtract etc)*; 
 - this particular one is called `OPCODE`, which is associated with *exactly one kind of arithmetic operation*

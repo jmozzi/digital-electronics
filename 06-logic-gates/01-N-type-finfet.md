@@ -9,6 +9,7 @@
 - On either side of the Gate and above the Gate are *metal contacts* connected to vertical `vias` that are used to 
 	- input and output electricity to the corresponding parts.
 - It is called `FinFet` due to its fin-like shape.
+
 ![Pasted image 20251105201225](../images/Pasted%20image%2020251105201225.png)
 
 

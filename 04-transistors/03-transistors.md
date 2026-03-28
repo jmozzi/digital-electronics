@@ -15,12 +15,14 @@ Book: Introduction to Computer Organization  (R.G. Plantz)
 - it allows computer to do maths and interpret instructions
 ## NPN Bipolar Junction Transistor (BJT)
 - 3 leads/inputs
+
 ![Pasted image 20251001105105](../images/Pasted%20image%2020251001105105.png)
 ## PNP Bipolar Junction Transistor (BJT)
 ![Pasted image 20251001105315](../images/Pasted%20image%2020251001105315.png)
 
 ## Field Effect Transistor (FET) - MOSFET
 - Drain, Gate, Source
+
 ![Pasted image 20251001105437](../images/Pasted%20image%2020251001105437.png)
 
 
@@ -34,9 +36,10 @@ Book: Introduction to Computer Organization  (R.G. Plantz)
 - a few standard cells put together, 
 - wide range of macrocells (some with multiple thousand standard cells)
 - 160 standard cells to create eg an `Adder` Macrocell that can add two numbers together see [[15-memory-vs-buffer-overflow#full adder - overflow signal| adder]]
+
 ![Pasted image 20251106121401](../images/Pasted%20image%2020251106121401.png)
 - to connect all those standard cells together it needs:
-	- a higher layer of vertical `vias` and wires, called `Metal 1` or `M1`
+	- a higher layer of vertical `vias` and wires, called `Metal 1` or `M1`  
 ![Pasted image 20251106121642](../images/Pasted%20image%2020251106121642.png)
 - multiplication is more complex, so for 32-bit multiplication we have a `macrocell` built from `6100` standard cells 
 ## IP Core
@@ -46,9 +49,10 @@ Book: Introduction to Computer Organization  (R.G. Plantz)
 ## complete chip/processor
 - and those cores can be combined into a complete chip, eg a processor
 - which can be found inside the CPU mounted onto a motherboard
-- processors have 10s of billions of transistors
+- processors have 10s of billions of transistors  
 ![Pasted image 20251106122355](../images/Pasted%20image%2020251106122355.png)
 - they use about *17 metal layers of wires* connected together
 	- to form the `Macrocells`, `IP cores`, `cores` and other sections of the CPU
+
 ![Pasted image 20251107085621](../images/Pasted%20image%2020251107085621.png)
 

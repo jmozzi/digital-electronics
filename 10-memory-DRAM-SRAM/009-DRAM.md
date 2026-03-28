@@ -40,13 +40,17 @@ Prefetching
 - 
 # how DRAM memory cells are organised - 1T1C cell
 `1T1C` means 1 transistor + 1 capacitor per bit
+
 ![Pasted image 20251107103330](../images/Pasted%20image%2020251107103330.png)
+
 has 2 parts:
 - capacitor
 	- stores *one bit of data* in form of electrical charge
 	- shaped like deep trench
 	- dug into silicon, composed of 2 conductive surfaces, separated by a dielectric insulator which stops flow of electrons, but allows electric fields to pass through
+
 ![Pasted image 20251107103539](../images/Pasted%20image%2020251107103539.png)
+
 - transistor
 	- to access and read or write data
 	- the wordline wire (rows)
@@ -59,6 +63,7 @@ has 2 parts:
 		- or discharge the capacitor to write a `0`
 		- and we can `read` the capacitor by measuring the amount of charge
 	- over time, electrons leak across the channel cause it's so small, and capacitor needs to be refreshed to recharge the leaked electrons
+
 ![Pasted image 20251107103723](../images/Pasted%20image%2020251107103723.png)
 
 So, the wordline turns the transistor on
@@ -67,7 +72,9 @@ and the transistor allows the bitline to charge the capacitor
 
 - when wordline is one, all capacitors in that row are connected to respective bitlines
 - activating all memory cells in that row
+
 ![Pasted image 20251107104441](../images/Pasted%20image%2020251107104441.png)
+
 The Row Decoder and Column Multiplexer
 - is responsible for the `column selection`
 - from a 31-bit address, 
@@ -79,10 +86,13 @@ The Row Decoder and Column Multiplexer
 		- to the 8 input and output wires at the bottom. 
 
 Row Decoder:
+
 ![Pasted image 20251107104828](../images/Pasted%20image%2020251107104828.png)
+
 Column Multiplexer:
 
 ![Pasted image 20251107105155](../images/Pasted%20image%2020251107105155.png)
+
 > now we can access any 8 bit active 1T1C cells in the big array
 # How data is written/read from memory cells
 - for this we need to add 2 elements to our layout:
@@ -102,8 +112,10 @@ So, if we read from a group of memory cells, then this happens:
 - now all bitlines are driven to `1V` or `0V` corresponding to the stored charge in the capacitors of the activated row
 	- and this row is considered open
 ![Pasted image 20251107114612](../images/Pasted%20image%2020251107114612.png)
+
 - next the `column select multiplexer` uses the 10-bit column address to connect the corresponding 8 bitlines to the read driver 
 ![Pasted image 20251107114814](../images/Pasted%20image%2020251107114814.png)
+
 - which then sends these 8 values and voltages over the 8 data wires to the CPU
 ![Pasted image 20251107114914](../images/Pasted%20image%2020251107114914.png)
 

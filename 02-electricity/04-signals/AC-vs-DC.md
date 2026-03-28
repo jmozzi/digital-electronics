@@ -55,8 +55,8 @@ RMS = Root Mean Square
 - A **120V RMS AC** supply delivers the same power to a resistor as a **120V DC** supply.
 - In other words, **RMS voltage** makes it possible to equate AC to DC in terms of their power-delivering ability, e*ven though the forms of the voltages are quite different.*
 - Power Dissipation:
-	- The power dissipated in a resistor by both AC and DC is *proportional to the square of the voltage*, so we can use the RMS value to calculate the power dissipated in a resistor with AC, just as we would with DC:
-	- ![Pasted image 20250819113248](../../images/Pasted%20image%2020250819113248.png)
+	- The power dissipated in a resistor by both AC and DC is *proportional to the square of the voltage*, so we can use the RMS value to calculate the power dissipated in a resistor with AC, just as we would with DC:  
+	![Pasted image 20250819113248](../../images/Pasted%20image%2020250819113248.png)
 	- This is why RMS is important: it helps us understand the **power** delivered by AC circuits in the same way we understand DC circuits.
 	- When you see **120V AC** on your household outlet (USA), that's the **RMS** value.
 	- The **peak voltage** of the signal would be higher, around **170V**.
@@ -67,12 +67,14 @@ RMS = Root Mean Square
 	- RMS = 170 / 1.41  = 120 VAC
 	- that's the north American household voltage
 	- *RMS is a good way to compare between DC and AC and whether the AC signal would produce the same power (or heat) in a resistor as a DC voltage of the same value*
+
 ![Pasted image 20250818142114](../../images/Pasted%20image%2020250818142114.png)
 
 - **Peak Voltage (Vp​):** The maximum instantaneous voltage (e.g., ~170V for a US outlet).
 - **RMS (Root Mean Square):** The "effective" voltage.
     - **Definition:** The AC voltage that performs the same amount of **work** (heat/power) as a DC voltage of the same value.
-    - **Formula:** ![Pasted image 20260209120717](../../images/Pasted%20image%2020260209120717.png)
+    - **Formula:**   
+	![Pasted image 20260209120717](../../images/Pasted%20image%2020260209120717.png)  
     - Example: `170V Peak / 1.414 = 120V RMS`.
 
 # How AC is Converted to DC:

@@ -9,6 +9,7 @@
 *For Output to be `0`*:
 - both inputs need to be `1`
 	- this turns both N-types `on` and creating path from ground rail to the output
+
 ![Pasted image 20251107090330](../images/Pasted%20image%2020251107090330.png)
 *For Output to be `1`*:
 - either or both of the P Type transistors need to be `0`
@@ -23,6 +24,7 @@
 - to build P-Type in parallel
 	- we connect power rail to one side of each of the transistors
 	- and the output is connected to the middle
+
 ![Pasted image 20251107090956](../images/Pasted%20image%2020251107090956.png)
 - as per above, if either of inputs are `0`, 
 	- either or both of the P-Types are `on`
@@ -30,5 +32,6 @@
 
 N-Type: in series
 - onse side is connected to Ground and the other to the output
+
 ![Pasted image 20251107091412](../images/Pasted%20image%2020251107091412.png)
 

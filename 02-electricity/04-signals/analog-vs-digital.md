@@ -11,4 +11,5 @@ it's a continuous voltage signal
 - square pattern off/on, 
 - between low and  high value
 - different voltages applied to a wire
+
 ![Pasted image 20251001110826](../../images/Pasted%20image%2020251001110826.png)
