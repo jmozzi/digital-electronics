@@ -36,4 +36,5 @@ but that's just a convention; could be the other way around: register `low` when
 - Ensures that the line “`idles high`” when nothing is pulling it low.
 - Common example: **I²C, UART TX lines, Reset pins, GPIO inputs**.
 - A pull-up resistor connects a pin to the positive voltage supply `Vcc`, pulling it high when no other signal is present.
+
 ![Pasted image 20251109100647](../images/Pasted%20image%2020251109100647.png)

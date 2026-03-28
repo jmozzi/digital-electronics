@@ -40,6 +40,7 @@ Book: Introduction to Computer Organization  (R.G. Plantz)
 ![Pasted image 20251106121401](../images/Pasted%20image%2020251106121401.png)
 - to connect all those standard cells together it needs:
 	- a higher layer of vertical `vias` and wires, called `Metal 1` or `M1`  
+
 ![Pasted image 20251106121642](../images/Pasted%20image%2020251106121642.png)
 - multiplication is more complex, so for 32-bit multiplication we have a `macrocell` built from `6100` standard cells 
 ## IP Core
@@ -50,6 +51,7 @@ Book: Introduction to Computer Organization  (R.G. Plantz)
 - and those cores can be combined into a complete chip, eg a processor
 - which can be found inside the CPU mounted onto a motherboard
 - processors have 10s of billions of transistors  
+
 ![Pasted image 20251106122355](../images/Pasted%20image%2020251106122355.png)
 - they use about *17 metal layers of wires* connected together
 	- to form the `Macrocells`, `IP cores`, `cores` and other sections of the CPU

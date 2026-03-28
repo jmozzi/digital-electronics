@@ -9,6 +9,7 @@ symbol:
 simplified:
 
 ![Pasted image 20251101185112](../images/Pasted%20image%2020251101185112.png)
+
 details:
 
 ![Pasted image 20251105200002](../images/Pasted%20image%2020251105200002.png)
@@ -26,6 +27,7 @@ details:
 - the input is the electrical wire that connects to the shared gate
 - and the output which connects to the local interconnect wire connected to each of the two transistors
 - all the empty spaces are filled with insulating material called dielectric
+
 ![Pasted image 20251105204144](../images/Pasted%20image%2020251105204144.png)
 - now a single input voltage on the gate (either `1` or `0`) travels to the shared gate and controls both transistors
 - because the `N-type` and `P-type` are opposite of each other

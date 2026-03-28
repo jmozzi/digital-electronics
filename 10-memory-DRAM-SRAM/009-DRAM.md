@@ -37,8 +37,7 @@ Prefetching
 - these memory channels independently transfer 32 bits at a time using 32 data wires
 - there are 21 additional wires, each memory channel carries and address specifying where to read or write data and
 - using 7 control signals wires, to relay commands
-- 
-# how DRAM memory cells are organised - 1T1C cell
+# how DRAM memory cells are organised - `1T1C` cell
 `1T1C` means 1 transistor + 1 capacitor per bit
 
 ![Pasted image 20251107103330](../images/Pasted%20image%2020251107103330.png)

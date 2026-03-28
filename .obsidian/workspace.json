@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "000-safety.md",
+                "file": "02-electricity/04-signals/analog-vs-digital.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "000-safety"
+              "title": "analog-vs-digital"
             }
           }
         ]
@@ -156,13 +156,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "000-safety.md",
+                "file": "02-electricity/04-signals/analog-vs-digital.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of 000-safety"
+              "title": "Outline of analog-vs-digital"
             }
           }
         ],
@@ -185,9 +185,19 @@
   },
   "active": "e1863f46b05a43bd",
   "lastOpenFiles": [
+    "02-electricity/04-signals/AC-vs-DC.md",
+    "02-electricity/02-electrical-laws/Kirchhoff's-voltage-law-KVL.md",
+    "02-electricity/02-electrical-laws/Kirchhoff's-current-law-KCL.md",
+    "10-memory-DRAM-SRAM/009-DRAM.md",
+    "06-logic-gates/07-XOR-gate-10-transistors.md",
+    "06-logic-gates/06-OR-gate-6-transistors.md",
+    "06-logic-gates/03-NOT-gate-inverter.md",
+    "04-transistors/04-pull-up-pull-down-resistor.md",
+    "04-transistors/03-transistors.md",
+    "04-transistors/01-conductors-insulators.md",
+    "000-safety.md",
     "README.md",
     "10-memory-DRAM-SRAM/10-SRAM.md",
-    "10-memory-DRAM-SRAM/009-DRAM.md",
     "10-memory-DRAM-SRAM/004-capacitors-filters.md",
     "08-sequential-logic-circuits/latches.md",
     "08-sequential-logic-circuits/flip flops.md",
@@ -195,22 +205,12 @@
     "06-logic-gates/13-ALU-and-binary-decoders.md",
     "06-logic-gates/11-full-adder.md",
     "06-logic-gates/10-half-adder.md",
-    "06-logic-gates/07-XOR-gate-10-transistors.md",
-    "06-logic-gates/06-OR-gate-6-transistors.md",
     "06-logic-gates/05-AND-gate-6-transistors.md",
     "06-logic-gates/04-NAND-gate-4-transistors.md",
-    "06-logic-gates/03-NOT-gate-inverter.md",
     "06-logic-gates/02-P-type-finfet.md",
     "06-logic-gates/01-N-type-finfet.md",
     "04-transistors/05-MOSFET-CMOS-switch.md",
-    "04-transistors/04-pull-up-pull-down-resistor.md",
-    "04-transistors/03-transistors.md",
-    "04-transistors/01-conductors-insulators.md",
     "02-electricity/05-components/passive-components.md",
-    "02-electricity/05-components/active-components.md",
-    "02-electricity/04-signals/PWM.md",
-    "02-electricity/04-signals/analog-vs-digital.md",
-    "02-electricity/04-signals/AC-vs-DC.md",
     "02-electricity/05-components",
     "02-electricity/04-signals",
     "02-electricity/03-properties",

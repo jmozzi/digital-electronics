@@ -29,6 +29,7 @@
 	- and when we add a current electrons will move to fill nearby holes (not going to positive, but to fill the holes and hence holes appear to move in the opposite direction)
 	- a hole behaves like a positive charge; and in P-type material, current appears to flow because holes move towards the negative terminal
 - P-Type has `holes` as majority carriers
+
 ![Pasted image 20251106144718](../images/Pasted%20image%2020251106144718.png)
 
 # Usage

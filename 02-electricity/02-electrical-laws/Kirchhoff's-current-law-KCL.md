@@ -1,4 +1,4 @@
-# Kirchhoff's Current Law (KCL)*: 
+# Kirchhoff's Current Law (KCL): 
 **the sum of currents entering a node equals the sum of currents leaving the node.**
 - Helps analyze **parallel circuits**
 - Predict how current divides between branches
