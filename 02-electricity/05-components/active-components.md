@@ -1,0 +1,12 @@
+# Active components
+- active components that are controlled electronically
+	- they require external energy to operate and can control current or voltage
+- **Definition:** They can control the flow of electricity (like a switch) and can **amplify** a signal.
+- **transistors:** "building block" of computers
+    - Like an **electronically controlled valve**: by applying a tiny bit of current to one leg, you can control a massive flow of current through the other two legs.
+    - This is how 0s and 1s are physically created.
+- **diode**: allow current to flow in **one direction only**
+	- **Symbol:** Triangle pointing to a line (→|)
+- **LEDs** (technically diodes, but **emit light** when powered (forward biased))
+- **integrated Circuits (ICs)**: tiny circuits with multiple transistors, resistors, etc., performing **logic, amplification, or control**
+- **Phototransistors / Optocouplers**: control current via **light signals**

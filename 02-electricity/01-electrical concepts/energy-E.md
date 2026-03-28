@@ -1,0 +1,11 @@
+# Energy (E) - total effect
+- `Energy` = the ability to do work (cause change)
+	- moving electrons
+	- producing **light** (lamp)
+	- producing **heat** (heater/resistor)
+	- producing **motion** (motor)
+- **Energy** = total amount of “effect” (e.g. total heat/light produced)
+- **Power** = how _fast_ that effect happens (per second) see [[electrical-power-W]]
+- Same bulb, longer time -> more **energy** used
+- Brighter bulb -> higher **power** (more energy each second)
+- **Energy (E)** -> total effect produced over time = `P × t`
