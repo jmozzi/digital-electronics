@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "README.md",
+                "file": "01-practical-projects/simple-LED-circuit.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "README"
+              "title": "simple-LED-circuit"
             }
           },
           {
@@ -170,13 +170,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "README.md",
+                "file": "01-practical-projects/simple-LED-circuit.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of README"
+              "title": "Outline of simple-LED-circuit"
             }
           }
         ],
@@ -199,11 +199,12 @@
   },
   "active": "832f9a106aa1d2c4",
   "lastOpenFiles": [
+    "images/Pasted image 20260401143507.png",
+    "README.md",
     "02-electricity/05-components/passive-components.md",
     "02-electricity/05-components/resistors.md",
     "02-electricity/04-signals/analog-vs-digital.md",
     "02-electricity/03-properties/03-properties.md",
-    "images/Pasted image 20260401143507.png",
     "images/Pasted image 20260209121422.png",
     "images/Pasted image 20260209120717.png",
     "images/Pasted image 20260330102411.png",
@@ -213,7 +214,6 @@
     "images/Pasted image 20260330121907.png",
     "01-practical-projects/simple-LED-circuit.md",
     "02-electricity/04-signals/PWM.md",
-    "README.md",
     "02-electricity/05-components/images",
     "000-safety.md",
     "02-electricity/02-electrical-laws/Ohms-law.md",
