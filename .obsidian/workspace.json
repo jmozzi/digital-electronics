@@ -8,17 +8,31 @@
         "type": "tabs",
         "children": [
           {
-            "id": "e1863f46b05a43bd",
+            "id": "832f9a106aa1d2c4",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "02-electricity/04-signals/analog-vs-digital.md",
+                "file": "01-practical-projects/simple-LED-circuit.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "analog-vs-digital"
+              "title": "simple-LED-circuit"
+            }
+          },
+          {
+            "id": "8e6df5c751ff1ad4",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "02-electricity/02-electrical-laws/power-formula.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "power-formula"
             }
           }
         ]
@@ -156,13 +170,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "02-electricity/04-signals/analog-vs-digital.md",
+                "file": "01-practical-projects/simple-LED-circuit.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of analog-vs-digital"
+              "title": "Outline of simple-LED-circuit"
             }
           }
         ],
@@ -183,8 +197,34 @@
       "bases:Create new base": false
     }
   },
-  "active": "e1863f46b05a43bd",
+  "active": "832f9a106aa1d2c4",
   "lastOpenFiles": [
+    "02-electricity/05-components/resistors.md",
+    "02-electricity/05-components/images/Pasted image 20260401143507.png",
+    "02-electricity/05-components/images",
+    "02-electricity/05-components/passive-components.md",
+    "02-electricity/03-properties/03-properties.md",
+    "01-practical-projects/simple-LED-circuit.md",
+    "README.md",
+    "000-safety.md",
+    "02-electricity/02-electrical-laws/Ohms-law.md",
+    "02-electricity/01-electrical concepts 1.md",
+    "01-practical-projects.md",
+    "02-electricity/01-electrical concepts.md",
+    "02-electricity/02-electrical-laws/power-formula.md",
+    "01-practical-projects/images/Pasted image 20260330121907.png",
+    "01-practical-projects/images/Pasted image 20260330121719.png",
+    "01-practical-projects/images/Pasted image 20260330120748.png",
+    "01-practical-projects/images/Pasted image 20260330102803.png",
+    "01-practical-projects/images/Screenshot from 2026-03-29 20-19-29.png",
+    "01-practical-projects/images/Pasted image 20260330102411.png",
+    "01-practical-projects/images/Pasted image 20260330102214.png",
+    "01-practical-projects/images",
+    "01-practical-projects/Screenshot from 2026-03-29 20-19-29.png",
+    "01-practical-projects",
+    "02-electricity/01-electrical concepts/electrical-current-Amp.md",
+    "02-electricity/01-electrical concepts/atomic-structure-and-electricity.md",
+    "02-electricity/04-signals/analog-vs-digital.md",
     "02-electricity/04-signals/AC-vs-DC.md",
     "02-electricity/02-electrical-laws/Kirchhoff's-voltage-law-KVL.md",
     "02-electricity/02-electrical-laws/Kirchhoff's-current-law-KCL.md",
@@ -195,22 +235,7 @@
     "04-transistors/04-pull-up-pull-down-resistor.md",
     "04-transistors/03-transistors.md",
     "04-transistors/01-conductors-insulators.md",
-    "000-safety.md",
-    "README.md",
     "10-memory-DRAM-SRAM/10-SRAM.md",
-    "10-memory-DRAM-SRAM/004-capacitors-filters.md",
-    "08-sequential-logic-circuits/latches.md",
-    "08-sequential-logic-circuits/flip flops.md",
-    "06-logic-gates/15-memory-vs-buffer-overflow.md",
-    "06-logic-gates/13-ALU-and-binary-decoders.md",
-    "06-logic-gates/11-full-adder.md",
-    "06-logic-gates/10-half-adder.md",
-    "06-logic-gates/05-AND-gate-6-transistors.md",
-    "06-logic-gates/04-NAND-gate-4-transistors.md",
-    "06-logic-gates/02-P-type-finfet.md",
-    "06-logic-gates/01-N-type-finfet.md",
-    "04-transistors/05-MOSFET-CMOS-switch.md",
-    "02-electricity/05-components/passive-components.md",
     "02-electricity/05-components",
     "02-electricity/04-signals",
     "02-electricity/03-properties",
@@ -218,18 +243,6 @@
     "02-electricity/01-electrical concepts",
     "08-sequential-logic-circuits",
     "10-memory-DRAM-SRAM",
-    "04-transistors",
-    "06-logic-gates",
-    "02-electricity",
-    "images/Pasted image 20251107114914.png",
-    "images/Pasted image 20251107103723.png",
-    "images/Pasted image 20251107114814.png",
-    "images/Pasted image 20251107104828.png",
-    "images/Pasted image 20251107091412.png",
-    "images/Pasted image 20251107104441.png",
-    "images/Pasted image 20251107090330.png",
-    "images/Pasted image 20251107104309.png",
-    "images/Pasted image 20251106144718.png",
-    "images/Pasted image 20251106122355.png"
+    "images/Pasted image 20251107114914.png"
   ]
 }
