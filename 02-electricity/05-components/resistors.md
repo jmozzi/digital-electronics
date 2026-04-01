@@ -17,4 +17,4 @@ https://au.rs-online.com/web/content/discovery/ideas-and-advice/resistors-guide
 	- colour code system
 	- alphanumeric marking for surface mount resistors (SMD)
 
-![](Pasted%20image%2020260401143507.png)
+![screenshot](../../images/Pasted%20image%2020260401143507.png)

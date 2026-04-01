@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "01-practical-projects/simple-LED-circuit.md",
+                "file": "README.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "simple-LED-circuit"
+              "title": "README"
             }
           },
           {
@@ -170,13 +170,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "01-practical-projects/simple-LED-circuit.md",
+                "file": "README.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of simple-LED-circuit"
+              "title": "Outline of README"
             }
           }
         ],
@@ -199,32 +199,34 @@
   },
   "active": "832f9a106aa1d2c4",
   "lastOpenFiles": [
-    "README.md",
+    "02-electricity/05-components/passive-components.md",
+    "02-electricity/05-components/resistors.md",
+    "02-electricity/04-signals/analog-vs-digital.md",
+    "02-electricity/03-properties/03-properties.md",
+    "images/Pasted image 20260401143507.png",
+    "images/Pasted image 20260209121422.png",
+    "images/Pasted image 20260209120717.png",
+    "images/Pasted image 20260330102411.png",
+    "images/Pasted image 20260330102803.png",
+    "images/Pasted image 20260330120748.png",
+    "images/Pasted image 20260330121719.png",
     "images/Pasted image 20260330121907.png",
     "01-practical-projects/simple-LED-circuit.md",
-    "02-electricity/05-components/resistors.md",
-    "02-electricity/05-components/images/Pasted image 20260401143507.png",
+    "02-electricity/04-signals/PWM.md",
+    "README.md",
     "02-electricity/05-components/images",
-    "02-electricity/05-components/passive-components.md",
-    "02-electricity/03-properties/03-properties.md",
     "000-safety.md",
     "02-electricity/02-electrical-laws/Ohms-law.md",
     "02-electricity/01-electrical concepts 1.md",
     "01-practical-projects.md",
     "02-electricity/01-electrical concepts.md",
     "02-electricity/02-electrical-laws/power-formula.md",
-    "images/Pasted image 20260330121719.png",
-    "images/Pasted image 20260330120748.png",
-    "images/Pasted image 20260330102803.png",
     "01-practical-projects/images/Screenshot from 2026-03-29 20-19-29.png",
-    "images/Pasted image 20260330102411.png",
     "01-practical-projects/images/Pasted image 20260330102214.png",
     "01-practical-projects/images",
-    "01-practical-projects/Screenshot from 2026-03-29 20-19-29.png",
     "01-practical-projects",
     "02-electricity/01-electrical concepts/electrical-current-Amp.md",
     "02-electricity/01-electrical concepts/atomic-structure-and-electricity.md",
-    "02-electricity/04-signals/analog-vs-digital.md",
     "02-electricity/04-signals/AC-vs-DC.md",
     "02-electricity/02-electrical-laws/Kirchhoff's-voltage-law-KVL.md",
     "02-electricity/02-electrical-laws/Kirchhoff's-current-law-KCL.md",
@@ -235,14 +237,12 @@
     "04-transistors/04-pull-up-pull-down-resistor.md",
     "04-transistors/03-transistors.md",
     "04-transistors/01-conductors-insulators.md",
-    "10-memory-DRAM-SRAM/10-SRAM.md",
     "02-electricity/05-components",
     "02-electricity/04-signals",
     "02-electricity/03-properties",
     "02-electricity/02-electrical-laws",
     "02-electricity/01-electrical concepts",
     "08-sequential-logic-circuits",
-    "10-memory-DRAM-SRAM",
-    "images/Pasted image 20251107114914.png"
+    "10-memory-DRAM-SRAM"
   ]
 }
