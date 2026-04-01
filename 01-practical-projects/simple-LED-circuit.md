@@ -8,10 +8,10 @@ An LED is a diode, which means it allows current to only travel in one direction
 - I connect negative/ground power rails.
 - I connect power source to power rails.
 
-![](Pasted%20image%2020260330102803.png)
+![screenshot](Pasted%20image%2020260330102803.png)
 
 I can also hook it up just like this for demonstration purposes:  
-![](Pasted%20image%2020260330121719.png)
+![screenshot](Pasted%20image%2020260330121719.png)
 
 
 Different coloured LEDs need different voltage for them to light up:  
@@ -46,4 +46,4 @@ What resistor to chose in my designs?
 I only have a 150 Ohm or 220 Ohm resistor, so for my circuit I'll use the 220 Ohm resistor to be on the safe side.
 
 And at 5 V, we only draw 0.02 A as desired.  
-![](Pasted%20image%2020260330121907.png)
+![screenshot](Pasted%20image%2020260330121907.png)
