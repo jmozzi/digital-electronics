@@ -20,6 +20,7 @@ These are the resources I learned with most closely:
 
 - [000-safety.md](000-safety.md) — safety basics
 - [**01-practical-projects**](01-practical-projects/)
+	- [Konami-Code-Circuit](01-practical-projects/Konami-Code-Circuit/)
 - [**02-electricity**](02-electricity/)
 	- [01-electrical concepts](02-electricity/01-electrical%20concepts/)
 	- [02-electrical-laws](02-electricity/02-electrical-laws/)
