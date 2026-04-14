@@ -2,7 +2,7 @@ https://pinout.xyz/
 
 ![](../../images/Pasted%20image%2020260407131347.png)
 
-Or like this:
+Or like this:  
 ![](../../images/Pasted%20image%2020260407133107.png)
 
 # Wiring to breadboard (just power rails)

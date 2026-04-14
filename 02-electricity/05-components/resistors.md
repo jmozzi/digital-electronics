@@ -34,12 +34,12 @@ This resistance converts electrical energy into **heat**, effectively controllin
 - Allow for manual adjustment of resistance value.
 - Used for volume control, light dimmers, and sensor calibration.
 
-![](Pasted%20image%2020260402093257.png)
+![](../../images/Pasted%20image%2020260402093257.png)
 ### Specialty resistor
 - **Thermistors**: 
 
 
-![](Pasted%20image%2020260402093313.png)
+![](../../images/Pasted%20image%2020260402093313.png)
 
 
 - Ohm's law and resistors

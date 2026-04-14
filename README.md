@@ -4,7 +4,7 @@ This repository is a personal study vault about electronics: from basic electric
 It is written for my own reference and to show how I approached the material.
 
 ## Practical projects
-I have added some experimentation and projects that I built with breadboards which you can see under `practical-projects`.
+I have added some experimentation and projects that I built with breadboards and a Raspberry Pi which you can see under `practical-projects`.  
 I've used the Crumb Simulator, but also a "real" breadboard in my home lab based on Ben Eater's YouTube videos.
 
 ## Main sources
