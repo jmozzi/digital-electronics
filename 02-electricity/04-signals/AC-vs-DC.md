@@ -71,7 +71,7 @@ RMS = Root Mean Square
 - **RMS (Root Mean Square):** The "effective" voltage.
     - **Definition:** The AC voltage that performs the same amount of **work** (heat/power) as a DC voltage of the same value.
     - **Formula:**   
-	![Pasted image 20260209120717](../../images/Pasted%20image%2020260209120717.png)  
+	![20260209120717](../../images/20260209120717.png)  
     - Example: `170V Peak / 1.414 = 120V RMS`.
 
 # How AC is Converted to DC:

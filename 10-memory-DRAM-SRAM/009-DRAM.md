@@ -33,14 +33,14 @@ Prefetching
 - when plugged in, the DRAM is directly connected to the CPU via 2 x memory channels that run through the mother board
 - inside the CPU is the DRAM interface, a memory controller which manages and communicates with DRAM
 - for DDR5, each memory channel is divided into 2 parts, `Channel A`, and `Channel B`
-![Pasted image 20251105213220](../images/20251105213220.png)
+![20251105213220](../images/20251105213220.png)
 - these memory channels independently transfer 32 bits at a time using 32 data wires
 - there are 21 additional wires, each memory channel carries and address specifying where to read or write data and
 - using 7 control signals wires, to relay commands
 # how DRAM memory cells are organised - `1T1C` cell
 `1T1C` means 1 transistor + 1 capacitor per bit
 
-![Pasted image 20251107103330](../images/20251107103330.png)
+![20251107103330](../images/20251107103330.png)
 
 has 2 parts:
 - capacitor
@@ -48,7 +48,7 @@ has 2 parts:
 	- shaped like deep trench
 	- dug into silicon, composed of 2 conductive surfaces, separated by a dielectric insulator which stops flow of electrons, but allows electric fields to pass through
 
-![Pasted image 20251107103539](../images/20251107103539.png)
+![20251107103539](../images/20251107103539.png)
 
 - transistor
 	- to access and read or write data
@@ -63,16 +63,16 @@ has 2 parts:
 		- and we can `read` the capacitor by measuring the amount of charge
 	- over time, electrons leak across the channel cause it's so small, and capacitor needs to be refreshed to recharge the leaked electrons
 
-![Pasted image 20251107103723](../images/20251107103723.png)
+![20251107103723](../images/20251107103723.png)
 
 So, the wordline turns the transistor on
 and the transistor allows the bitline to charge the capacitor
-![Pasted image 20251107104309](../images/20251107104309.png)
+![20251107104309](../images/20251107104309.png)
 
 - when wordline is one, all capacitors in that row are connected to respective bitlines
 - activating all memory cells in that row
 
-![Pasted image 20251107104441](../images/20251107104441.png)
+![20251107104441](../images/20251107104441.png)
 
 The Row Decoder and Column Multiplexer
 - is responsible for the `column selection`
@@ -86,11 +86,11 @@ The Row Decoder and Column Multiplexer
 
 Row Decoder:
 
-![Pasted image 20251107104828](../images/20251107104828.png)
+![20251107104828](../images/20251107104828.png)
 
 Column Multiplexer:
 
-![Pasted image 20251107105155](../images/20251107105155.png)
+![20251107105155](../images/20251107105155.png)
 
 > now we can access any 8 bit active 1T1C cells in the big array
 # How data is written/read from memory cells
@@ -110,13 +110,13 @@ So, if we read from a group of memory cells, then this happens:
 - the sense amplifier detects this slight change of voltage on the bitline, amplifies it and drives the bitline voltage down to `0` volt or ground.
 - now all bitlines are driven to `1V` or `0V` corresponding to the stored charge in the capacitors of the activated row
 	- and this row is considered open
-![Pasted image 20251107114612](../images/20251107114612.png)
+![20251107114612](../images/20251107114612.png)
 
 - next the `column select multiplexer` uses the 10-bit column address to connect the corresponding 8 bitlines to the read driver 
-![Pasted image 20251107114814](../images/20251107114814.png)
+![20251107114814](../images/20251107114814.png)
 
 - which then sends these 8 values and voltages over the 8 data wires to the CPU
-![Pasted image 20251107114914](../images/20251107114914.png)
+![20251107114914](../images/20251107114914.png)
 
 ## writing to memory cells
 

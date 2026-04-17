@@ -44,13 +44,13 @@ This build uses the board **vertically**: letters **a-j** run along the **top** 
 
 Buttons are placed **down the middle**, with legs on both sides of the **e | f** gap. LEDs and resistors sit on the **left block (a-e)** and the **right block (f-j)**; I complete each circuit with jumpers as below.
 
-![](../../images/Pasted%20image%2020260414131215.png)
+![](../../images/20260414131215.png)
 
 ## 4-pin tactile switches
 
 Each button has **four** legs. Two pairs are already connected **inside** the package (each pair is two legs on opposite sides of the ravine, e.g. **Nd** and **Ng** on one row); **not** pressed, those two pairs are isolated from each other; pressed, the two pairs connect (normally open between pairs). Wire so **GPIO** and **GND** (or **3.3 V**, for a pull-down layout) go to **different** pairs.
 
-![](../../images/Pasted%20image%2020260412080824.png)
+![](../../images/20260412080824.png)
 
 ## Power the Pi and tie the breadboard to the Pi
 
@@ -126,7 +126,7 @@ For **each** button (internal pull-up, active-low):
 
 Unpressed, the internal pull-up holds the pin HIGH; pressed, the GPIO row is tied to the GND row through the switch → reads **LOW**.
 
-![](../../images/Pasted%20image%2020260414131826.png)
+![](../../images/20260414131826.png)
 
 ### Breadboard: LEDs (same for both wiring options)
 
@@ -136,7 +136,7 @@ For each LED: **GPIO pin → LED anode (long leg) → LED cathode (short leg) �
 
 **Example - green LED (BCM 18, physical pin 12 on Pi)** as wired on this board:
 
-![](../../images/Pasted%20image%2020260414130536.png)
+![](../../images/20260414130536.png)
 
 ## Wiring option 2 - External pull-ups or pull-downs
 
@@ -144,7 +144,7 @@ For each LED: **GPIO pin → LED anode (long leg) → LED cathode (short leg) �
 
 For the same **active-low** behavior as Option 1 (rest = HIGH, pressed = LOW), use **external pull-ups** wired like the internal-pull-up case: Connect **3.3 V** from the Pi (**pin 1**) to the breadboard **red (+) rail** (see [Power](#power-the-pi-and-tie-the-breadboard-to-the-pi) above). Resistor from **3.3 V** to the GPIO node, button from that node to **GND**. That matches the rest of this project and keeps “pressed = LOW” in software. When the button is open, the 10 kΩ pulls the line to 3.3 V (HIGH). When pressed, the switch shorts the line to GND (LOW).
 
-![](../../images/Pasted%20image%2020260414132504.png)
+![](../../images/20260414132504.png)
 
 **External pull-down** (rest = LOW, pressed = HIGH) also works, but you would invert the read logic (`GPIO.HIGH` means pressed). There is no electrical need for pull-downs here unless you prefer that convention.
 

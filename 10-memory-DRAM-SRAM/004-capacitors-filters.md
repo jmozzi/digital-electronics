@@ -39,7 +39,7 @@ source: TCM IoT course
 - Electrolytics can **age**, drying out over 5–20 years depending on quality, use, and temperature.
 - Heat accelerates degradation. Use high-temp rated caps (105°C or more) for better lifespan.
 
-![Pasted image 20250815142920](../images/Pasted%20image%2020250815142920.png)
+![20250815142920](../images/20250815142920.png)
 ### disk ceramic capacitor
 - great for fairly low capacitance
 - very cheap to make
@@ -50,7 +50,7 @@ source: TCM IoT course
 - Physically larger spacing between leads = better for isolation
 - Easier to use in DIY or high-reliability designs
 
-![Pasted image 20250815142936](../images/Pasted%20image%2020250815142936.png)
+![20250815142936](../images/20250815142936.png)
 ### surface mount capacitor (ceramic)
 - **Non-polarized**: Can go in either direction (unlike electrolytic caps)
 - **Stable**: Good for high-frequency applications
@@ -61,4 +61,4 @@ Examples:
 - In a row near an antenna circuit? → Likely part of an **RF filter or matching network**.
 - Along a power input line? → Likely **bulk filtering** (with other caps/inductors).
 
-![Pasted image 20250815142951](../images/Pasted%20image%2020250815142951.png)
+![20250815142951](../images/20250815142951.png)

@@ -13,4 +13,4 @@
 
 XOR:
 
-![Pasted image 20251106121125](../images/Pasted%20image%2020251106121125.png)
+![20251106121125](../images/20251106121125.png)

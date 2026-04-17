@@ -9,7 +9,7 @@
 ### Example simple circuit with button
 ok, and that all means.... what?: 
 
-![Pasted image 20251109091357](../images/Pasted%20image%2020251109091357.png)
+![20251109091357](../images/20251109091357.png)
 - when button is pressed, voltage travels through the switch to the input pin of the microcontroller
 	- the microcontroller reads off the pin, sees the voltage and reports a `high`
 - but if botton is not pressed, the pin on the microcontroller is connected to nothing ... doesn't know what that is
@@ -30,11 +30,11 @@ but that's just a convention; could be the other way around: register `low` when
 	- that's why `pull resistors` are of fairly high resistance as sending a signal to a microcontroller doesn't need a ton of current (we typically only want current at `microampere` scale to detect a signal)
 	- particularly when circuit is closed a lot, cause then we have more time that connection from voltage source to GND exists and current moves through that resistor
 	
-![Pasted image 20251109095601](../images/Pasted%20image%2020251109095601.png)
+![20251109095601](../images/20251109095601.png)
 ### Pull-up resistor:
 - Reverse to pull-down: --> *Connects the signal line to **Vcc (positive rail)** through a resistor.*
 - Ensures that the line “`idles high`” when nothing is pulling it low.
 - Common example: **I²C, UART TX lines, Reset pins, GPIO inputs**.
 - A pull-up resistor connects a pin to the positive voltage supply `Vcc`, pulling it high when no other signal is present.
 
-![Pasted image 20251109100647](../images/Pasted%20image%2020251109100647.png)
+![20251109100647](../images/20251109100647.png)

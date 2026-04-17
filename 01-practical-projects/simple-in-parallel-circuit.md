@@ -9,7 +9,7 @@ Current in parallel circuit in total: I = V / R = 9 V / 220 = about 40 mA
 and that **current** **splits** for each LED (branch): 20 mA
 Voltage for each branch matches
 
-![](../images/Pasted%20image%2020260402144715.png)
+![](../images/20260402144715.png)
 
 WHY those measurement -> Kirchhoff's Laws in action:
 - parallel circuit:

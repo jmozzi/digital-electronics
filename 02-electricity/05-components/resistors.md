@@ -26,7 +26,7 @@ This resistance converts electrical energy into **heat**, effectively controllin
 - Predetermined, unchangeable resistance value.
 - Commonly used for current limiting, voltage division, and setting bias points for transistors.
 - Available in various sizes, power ratings, and tolerance levels.
-![screenshot](../../images/Pasted%20image%2020260402092158.png)
+![screenshot](../../images/20260402092158.png)
 
 
 ### Variable resistor
@@ -34,12 +34,12 @@ This resistance converts electrical energy into **heat**, effectively controllin
 - Allow for manual adjustment of resistance value.
 - Used for volume control, light dimmers, and sensor calibration.
 
-![](../../images/Pasted%20image%2020260402093257.png)
+![](../../images/20260402093257.png)
 ### Specialty resistor
 - **Thermistors**: 
 
 
-![](../../images/Pasted%20image%2020260402093313.png)
+![](../../images/20260402093313.png)
 
 
 - Ohm's law and resistors
@@ -53,7 +53,7 @@ This resistance converts electrical energy into **heat**, effectively controllin
 	- colour code system
 	- alphanumeric marking for surface mount resistors (SMD)
 
-![screenshot](../../images/Pasted%20image%2020260401143507.png)
+![screenshot](../../images/20260401143507.png)
 
 
 ### Resistance value

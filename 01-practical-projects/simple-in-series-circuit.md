@@ -9,7 +9,7 @@ Voltages for each LED is the same.
 **Voltages add in series:** 2.06+2.06+4.5≈8.6V
 Current in series **the same**: `I = V / R = 4.5 / 220 = 20 mA`, meaning **both LEDs get the same current 20 mA**
 
-![](../images/Pasted%20image%2020260402144542.png)
+![](../images/20260402144542.png)
 
 WHY those measurement -> Kirchhoff's Laws in action:
 - In a series loop: voltage gains (battery/source) = sum of voltage drops (resistors, bulbs, etc.)

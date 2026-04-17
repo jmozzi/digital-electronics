@@ -1,5 +1,5 @@
 # NAND and NOR - 4 transistors
-![Pasted image 20251106120908](../images/Pasted%20image%2020251106120908.png)
+![20251106120908](../images/20251106120908.png)
 ### NAND - AND followed by NOT
 - 2x P-Type transistors in parallel above
 - 2x N-Type transistors in series below
@@ -10,7 +10,7 @@
 - both inputs need to be `1`
 	- this turns both N-types `on` and creating path from ground rail to the output
 
-![Pasted image 20251107090330](../images/Pasted%20image%2020251107090330.png)
+![20251107090330](../images/20251107090330.png)
 *For Output to be `1`*:
 - either or both of the P Type transistors need to be `0`
 	- makes path from Power rail to output
@@ -25,7 +25,7 @@
 	- we connect power rail to one side of each of the transistors
 	- and the output is connected to the middle
 
-![Pasted image 20251107090956](../images/Pasted%20image%2020251107090956.png)
+![20251107090956](../images/20251107090956.png)
 - as per above, if either of inputs are `0`, 
 	- either or both of the P-Types are `on`
 	- then the 1 Volt rail is connected through the P-Types to the output
@@ -33,5 +33,5 @@
 N-Type: in series
 - onse side is connected to Ground and the other to the output
 
-![Pasted image 20251107091412](../images/Pasted%20image%2020251107091412.png)
+![20251107091412](../images/20251107091412.png)
 
