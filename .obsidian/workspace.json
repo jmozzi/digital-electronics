@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "01-practical-projects/Konami-Code-Circuit/07-Demonstration.md",
+                "file": "10-memory-DRAM-SRAM/004-capacitors-filters.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "07-Demonstration"
+              "title": "004-capacitors-filters"
             }
           },
           {
@@ -185,13 +185,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "01-practical-projects/Konami-Code-Circuit/07-Demonstration.md",
+                "file": "10-memory-DRAM-SRAM/004-capacitors-filters.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of 07-Demonstration"
+              "title": "Outline of 004-capacitors-filters"
             }
           }
         ],
@@ -214,39 +214,39 @@
   },
   "active": "188f9b2896034bd3",
   "lastOpenFiles": [
+    "10-memory-DRAM-SRAM/009-DRAM.md",
+    "06-logic-gates/13-ALU-and-binary-decoders.md",
+    "06-logic-gates/15-memory-vs-buffer-overflow.md",
+    "04-transistors/04-pull-up-pull-down-resistor.md",
+    "04-transistors/05-MOSFET-CMOS-switch.md",
+    "04-transistors/03-transistors.md",
+    "02-electricity/05-components/resistors.md",
+    "02-electricity/05-components/active-components.md",
+    "02-electricity/05-components/passive-components.md",
+    "01-practical-projects/Konami-Code-Circuit/06-rpigpio-lgpio-gpiozero.md",
+    "01-practical-projects/Konami-Code-Circuit/04a-Explain-Py-Code-lgpio.md",
+    "01-practical-projects/Konami-Code-Circuit/07-Demonstration.md",
     "01-practical-projects/Konami-Code-Circuit/08-Sources.md",
     "01-practical-projects/Konami-Code-Circuit/02-GPIO-Pin-Locations.md",
     "01-practical-projects/Konami-Code-Circuit/01-Prep-Raspberry-Pi.md",
     "01-practical-projects/Konami-Code-Circuit/00-Intro.md",
-    "01-practical-projects/Konami-Code-Circuit/07-Demonstration.md",
     "README.md",
     "10-memory-DRAM-SRAM/10-SRAM.md",
-    "10-memory-DRAM-SRAM/009-DRAM.md",
     "01-practical-projects/transistor-circuit.md",
     "01-practical-projects/simple-LED-circuit.md",
     "01-practical-projects/simple-in-series-circuit.md",
     "01-practical-projects/simple-in-parallel-circuit.md",
     "images/signal-2026-04-14-125714_004.mp4",
-    "01-practical-projects/Konami-Code-Circuit/06-rpigpio-lgpio-gpiozero.md",
     "01-practical-projects/Konami-Code-Circuit/05-Debouncing.md",
     "01-practical-projects/Konami-Code-Circuit/04c-Explain-Py-Code-rpigpio.md",
     "01-practical-projects/Konami-Code-Circuit/04b-Explain-Py-Code-gpiozero.md",
-    "01-practical-projects/Konami-Code-Circuit/04a-Explain-Py-Code-lgpio.md",
     "01-practical-projects/Konami-Code-Circuit/03-Wiring-Hardware.md",
     "images/Pasted image 20260414132504.png",
     "images/Pasted image 20260414131826.png",
     "images/Pasted image 20260414131716.png",
     "images/Pasted image 20260414131215.png",
     "images/Pasted image 20260414130536.png",
-    "01-practical-projects/Konami-Code-Circuit/04-Explain-Py-Code.md",
     "01-practical-projects/Konami-Code-Circuit/Konami-Code-internal-pull-up.py",
-    "04-transistors/04-pull-up-pull-down-resistor.md",
-    "01-practical-projects/Konami-Code-Circuit/00-Reading-Order.md",
-    "01-practical-projects/Konami-Code-Circuit/explain-py-code.md",
-    "01-practical-projects/Konami-Code-Circuit/GPIO-pin-locations.md",
-    "01-practical-projects/Konami-Code-Circuit/Konami-Code-Pi.md",
-    "01-practical-projects/Konami-Code-Circuit/Wiring-hardware.md",
-    "01-practical-projects/Konami-Code-Circuit/debouncing.md",
     "01-practical-projects/Konami-Code-Circuit/Konami-Code-external-pull-up.py",
     "images/Pasted image 20260412080824.png",
     "01-practical-projects/Konami-Code-Circuit/Konami-Code.py",
