@@ -24,7 +24,7 @@ h = lgpio.gpiochip_open(0)
 lgpio.gpio_claim_input(h, gpio, lgpio.SET_PULL_UP)
 ```
 
-- **`SET_PULL_UP`** matches **active-low** wiring: idle ≈ high, pressed = tied to GND → reads **0**.
+- **`SET_PULL_UP`** matches **active-low** wiring: idle ≈ high, pressed = tied to GND -> reads **0**.
 - The script still uses **wait-for-release** in software so one physical tap counts once.
 
 **Outputs** (LEDs):
@@ -33,7 +33,7 @@ lgpio.gpio_claim_input(h, gpio, lgpio.SET_PULL_UP)
 lgpio.gpio_claim_output(h, led, 0)
 ```
 
-Initial level **0** = LEDs off (assuming GPIO → resistor → LED → GND).
+Initial level **0** = LEDs off (assuming GPIO -> resistor -> LED -> GND).
 
 Nested **`leds_off()`** uses `lgpio.gpio_write(h, pin, 0)` on both LED pins.
 
@@ -67,11 +67,11 @@ Same Tk fullscreen / fallback `print` as the other variants — **no GPIO** invo
 
 ## `main()` loop
 
-1. **`wait_for_release()`** → **`wait_for_press()`**
-2. **`RESET`** → clear list, double green, `continue` (not appended to Konami).
+1. **`wait_for_release()`** -> **`wait_for_press()`**
+2. **`RESET`** -> clear list, double green, `continue` (not appended to Konami).
 3. Else **append**, **slice** to last `len(KONAMI)` inputs (sliding window).
-4. **`correct_prefix = input_sequence == KONAMI[:n]`** → green vs red blink.
-5. Full match → green steady, Tk message, **`break`**.
+4. **`correct_prefix = input_sequence == KONAMI[:n]`** -> green vs red blink.
+5. Full match -> green steady, Tk message, **`break`**.
 6. Else **`wait_for_release()`** before next iteration.
 
 ## Cleanup
@@ -85,7 +85,7 @@ finally:
 
 Turns LEDs off and **releases the chip** (unlike `RPi.GPIO.cleanup()` naming, but same intent: leave hardware safe).
 
-**Ctrl+C** → `KeyboardInterrupt` → same `finally` runs.
+**Ctrl+C** -> `KeyboardInterrupt` -> same `finally` runs.
 
 ## Summary
 

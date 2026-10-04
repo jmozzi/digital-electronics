@@ -5,11 +5,11 @@
 **Applications:**
 
 1. **LED Brightness**
-    - Longer “on” time → brighter LED
-    - Shorter “on” time → dimmer LED
+    - Longer “on” time -> brighter LED
+    - Shorter “on” time -> dimmer LED
 2. **Motors**
-    - Longer pulses → more power → faster rotation
-    - Shorter pulses → less power → slower rotation
+    - Longer pulses -> more power -> faster rotation
+    - Shorter pulses -> less power -> slower rotation
 3. **Communications Protocols**
     - Encodes data by varying the pulse widths.
 
@@ -56,6 +56,6 @@ In IoT, we often deal with "pulsating DC" that mimics AC behavior for control.
 |---|---|---|
 |Period (T)|0.2 s|Total time for one on/off cycle|
 |Pulse Width (PW)|0.1 s|Duration signal is “on”|
-|Duty Cycle (D)|50%|PW/T → fraction of time signal is on|
-|Frequency (f)|5 Hz|1/T → cycles per second|
+|Duty Cycle (D)|50%|PW/T -> fraction of time signal is on|
+|Frequency (f)|5 Hz|1/T -> cycles per second|
 If I change **PW** to 0.05 s while keeping T = 0.2 s -> D = 25% -> dimmer LED or slower motor.

@@ -19,7 +19,7 @@
 - Predict voltage drops on PCBs
 - Ensure components aren’t overloaded
 
-**Example:** LED with 5 V source, desired 20 mA → resistor = ( R = V/I = 5 / 0.02 = 250, \Omega )
+**Example:** LED with 5 V source, desired 20 mA -> resistor = ( R = V/I = 5 / 0.02 = 250, \Omega )
 
 # Georg Ohm
 - German mathematician and physicist

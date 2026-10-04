@@ -45,5 +45,5 @@ These are the resources I learned with most closely:
 	  - [13-ALU-and-binary-decoders](06-logic-gates/13-ALU-and-binary-decoders.md)  
 	  - [15-memory-vs-buffer-overflow](06-logic-gates/15-memory-vs-buffer-overflow.md)  
 - [**08-sequential-logic-circuits**](08-sequential-logic-circuits/)
-- [**10-memory-DRAM-SRAM**](10-memory-DRAM-SRAM/)
+- [**10-volatile-memory-DRAM-SRAM**](10-volatile-memory-DRAM-SRAM/)
 

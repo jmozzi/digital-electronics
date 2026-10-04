@@ -40,7 +40,7 @@ GPIO.setup(led, GPIO.OUT)
 GPIO.output(led, GPIO.LOW)
 ```
 
-Each LED is wired GPIO → resistor → LED → GND, so **HIGH** turns the LED **on**. The script starts with both off.
+Each LED is wired GPIO -> resistor -> LED -> GND, so **HIGH** turns the LED **on**. The script starts with both off.
 
 `leds_off()` just sets both GPIOs LOW so feedback flashes do not leave a LED stuck on by mistake.
 
@@ -86,7 +86,7 @@ Sleep briefly, then loop until `read_pressed_button()` returns `None`. So the li
 
 Loop until some button reads LOW; then **`sleep(DEBOUNCE_S)`** and check that the **same** button is still LOW. If yes, return that **one** logical press.
 
-Together, `wait_for_release()` + `wait_for_press()` implement **one tap → one list entry**, with debouncing.
+Together, `wait_for_release()` + `wait_for_press()` implement **one tap -> one list entry**, with debouncing.
 
 ## LED feedback helpers
 

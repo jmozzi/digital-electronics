@@ -91,9 +91,9 @@ It goes like this:
 This is the **maximum power the resistor can safely handle** before burning out. Unlike resistance, it’s usually judged by **physical size**:
 
 Typical sizes:
-- Small (≈6 mm) → **0.25 W (¼ watt)**
-- Medium → **0.5 W (½ watt)**
-- Bigger → **1 W or more**
+- Small (≈6 mm) -> **0.25 W (¼ watt)**
+- Medium -> **0.5 W (½ watt)**
+- Bigger -> **1 W or more**
 
 
 

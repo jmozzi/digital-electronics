@@ -15,8 +15,8 @@ Think of the voltage on the input pin as a **logic level** over time: mostly **H
 
 An **edge** is a **transition** between levels:
 
-- **Falling edge** - HIGH → LOW (press, in an active-low setup).
-- **Rising edge** - LOW → HIGH (release).
+- **Falling edge** - HIGH -> LOW (press, in an active-low setup).
+- **Rising edge** - LOW -> HIGH (release).
 
 **Bounce** means you get **several** falling edges (and rising edges on release) where you only want **one** “logical” press or release. A **naïve** loop that counts every time it sees LOW can treat **one** physical press as **many** presses.
 
@@ -33,7 +33,7 @@ So **sleep** is a **tool**; **debouncing** is the **policy** (wait + confirm + i
 
 Two separate issues get mixed together:
 
-1. **Bounce** - one tap → many quick LOW/HIGH flips. A loop that samples too fast can **count** multiple times before the contact settles.
+1. **Bounce** - one tap -> many quick LOW/HIGH flips. A loop that samples too fast can **count** multiple times before the contact settles.
 2. **Hold** - if the loop body runs again while your finger is **still** holding the button, the pin stays LOW every time you check. Without a rule like “wait until released before the next press,” **one** long hold can look like **many** presses.
 
 So debouncing is **not** only “sleep once”; you need **rules** that turn noisy transitions and continuous holds into **one logical press per tap**.

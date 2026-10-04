@@ -24,10 +24,10 @@ rpi-imager
 Then:
 1. **Choose my Pi**
 2. **Choose OS**  
-    → Raspberry Pi OS (64-bit) - Imager shows the recommended version of Raspberry Pi OS for the device at the top of the list.
+    -> Raspberry Pi OS (64-bit) - Imager shows the recommended version of Raspberry Pi OS for the device at the top of the list.
 3. Plug in MicroSD card into my computer via adapter
 4. **Choose Storage**  
-    → microSD card
+    -> microSD card
 5. Click advanced settings:
     - Enable SSH (optional)
     - Set username/password

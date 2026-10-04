@@ -18,7 +18,7 @@ UP, UP, DOWN, DOWN, LEFT, RIGHT, LEFT, RIGHT, B, A
 
 Each step is one physical button press. **RESET** is not part of the Konami string; it only clears my progress in case the wrong buttons are pressed (see [Konami-Code-internal-pull-up-lgpio.py](Konami-Code-internal-pull-up-lgpio.py), or the [RPi.GPIO](Konami-internal-pull-up-rpigpio.py) variant).
 
-## GPIO pin map (BCM → action)
+## GPIO pin map (BCM -> action)
 
 The programs use **BCM numbers** for each line (RPi.GPIO / gpiozero call `GPIO.setmode(GPIO.BCM)`; **lgpio** uses the same numbers when claiming pins). Match BCM names to **physical** header pins with [pinout.xyz](https://pinout.xyz/) or [02-GPIO-Pin-Locations](02-GPIO-Pin-Locations.md).
 
@@ -75,8 +75,8 @@ This path matches the internal-pull-up scripts — primarily [Konami-Code-intern
 ### Idea
 
 Each input GPIO is configured with an **internal pull-up**: 
-- **not pressed** → pin reads **HIGH**; 
-- **pressed** → switch ties the pin to **GND** → reads **LOW** (active-low). 
+- **not pressed** -> pin reads **HIGH**; 
+- **pressed** -> switch ties the pin to **GND** -> reads **LOW** (active-low). 
 - No extra resistors for the buttons.
 
 ### Code (RPi.GPIO example — same BCM map in the **lgpio** and **gpiozero** scripts)
@@ -127,7 +127,7 @@ For **each** button (internal pull-up, active-low):
 2. Run **one** jumper from the Pi **GPIO** to **any hole on the left block** in the GPIO row 
 3. Run **one** jumper from **any hole on the left block** in the GND row to the **blue − GND rail** 
 
-Unpressed, the internal pull-up holds the pin HIGH; pressed, the GPIO row is tied to the GND row through the switch → reads **LOW**.
+Unpressed, the internal pull-up holds the pin HIGH; pressed, the GPIO row is tied to the GND row through the switch -> reads **LOW**.
 
 ![](../../images/20260414131826.png)
 

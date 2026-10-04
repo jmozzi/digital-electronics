@@ -17,4 +17,4 @@ In CMOS:
 > `NMOS transistors` pull the output **low** (to ground) when required.
 - This arrangement drastically reduces power consumption because in steady states (logic 1 or 0), **no DC current flows** through the gate (only a small leakage current).
 
-see 06-logic-gates
+see [06-logic-gates](../06-logic-gates/)

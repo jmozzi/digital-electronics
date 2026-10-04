@@ -10,8 +10,8 @@ Or like this:
 To power the breadboard and connect it to common GND:
 
 ```text
-Pin 1 (3.3 V) → breadboard (+ rail)
-Pin 6 (GND)  → breadboard (- rail)
+Pin 1 (3.3 V) -> breadboard (+ rail)
+Pin 6 (GND)  -> breadboard (- rail)
 ```
 
 ## Safety note

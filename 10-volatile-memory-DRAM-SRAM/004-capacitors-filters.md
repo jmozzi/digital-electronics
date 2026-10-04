@@ -57,8 +57,8 @@ source: TCM IoT course
 - **Reliable**: Withstand temperature and stress well
 - **Small**: Great for tight PCB layouts (and mass production)
 Examples:
-- Right next to a microcontroller or CPU? → Probably a **decoupling cap**.
-- In a row near an antenna circuit? → Likely part of an **RF filter or matching network**.
-- Along a power input line? → Likely **bulk filtering** (with other caps/inductors).
+- Right next to a microcontroller or CPU? -> Probably a **decoupling cap**.
+- In a row near an antenna circuit? -> Likely part of an **RF filter or matching network**.
+- Along a power input line? -> Likely **bulk filtering** (with other caps/inductors).
 
 ![20250815142951](../images/20250815142951.png)

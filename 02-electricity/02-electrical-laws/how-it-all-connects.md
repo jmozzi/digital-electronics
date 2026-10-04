@@ -16,37 +16,37 @@
 - Always check **current ratings** for wires, traces, and components
 - Distribute voltage drops intentionally across resistors, LEDs, motors
 - Keep PCB traces sized to handle expected current
-- Series components → same current, sum voltage drops
-- Parallel components → same voltage, current divides
+- Series components -> same current, sum voltage drops
+- Parallel components -> same voltage, current divides
 - Always calculate **voltage drop & power** before modifying circuits
 - Use **Ohm’s law + KVL/KCL** as first diagnostic tool
 
 ## Designing and modifying circuits
-- **Ohm’s Law** tells you:
+- **Ohm’s Law** tells me:
     - What resistor to use to limit current for LEDs, sensors, or microcontrollers
     - What voltage a component will “see” under certain currents
-- **KVL** ensures you can predict voltage drops in series circuits → critical for designing multi-component PCBs
+- **KVL** ensures I can predict voltage drops in series circuits -> critical for designing multi-component PCBs
 
-**Example:** You add a new sensor to a board — without checking voltage drops, the sensor might **not get enough voltage to operate reliably**.
+**Example:** I add a new sensor to a board — without checking voltage drops, the sensor might **not get enough voltage to operate reliably**.
 
 ## Troubleshooting and repair
-- If something isn’t working, knowing **current, voltage, and power relationships** helps you find:
+- If something isn’t working, knowing **current, voltage, and power relationships** helps me find:
     - **Short circuits** (too much current, possible damage)
     - **Open circuits** (no current, voltage not reaching component)
     - Components overheating because **too much power** is being dissipated
 
-**Example:** A motor on a device keeps burning out → measuring voltage and current, applying Ohm’s Law, you can **calculate the expected power** and see if the wiring or driver is undersized.
+**Example:** A motor on a device keeps burning out -> measuring voltage and current, applying Ohm’s Law, I can **calculate the expected power** and see if the wiring or driver is undersized.
 
 ## Ensuring safety and reliability
 - Understanding **power = voltage × current** prevents:
     - Burnt traces on PCBs
     - Overheated wires or components
-    - Short circuits that could damage devices or harm operators
+    - Short circuits that could damage devices or cause harm
 
-**Example:** You design a power distribution line for sensors — you need to know **how much current the traces can handle** and what resistors/voltage regulators to use.
+**Example:** I design a power distribution line for sensors — I need to know **how much current the traces can handle** and what resistors/voltage regulators to use.
 
 ## Optimizing performance
 - Embedded systems often have **tight energy budgets** (battery-powered devices)
-- Knowing electrical laws helps you **minimize energy loss**, maximize efficiency, and size components correctly
+- Knowing electrical laws helps me **minimize energy loss**, maximize efficiency, and size components correctly
 
-**Example:** Choosing a low-resistance path and correct resistor values keeps your device **cooler and battery longer-lasting**.
+**Example:** Choosing a low-resistance path and correct resistor values keeps my device **cooler and battery longer-lasting**.

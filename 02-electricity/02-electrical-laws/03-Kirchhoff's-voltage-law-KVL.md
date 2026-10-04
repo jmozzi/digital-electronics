@@ -14,7 +14,7 @@
 
 
 In **normal low-frequency DC/AC circuits**, voltage drops and currents are well-behaved, so KVL is a **very reliable tool**.
-Engineers use it constantly to **design circuits, calculate currents, and ensure power distribution works correctly**.
+Engineers use it to **design circuits, calculate currents, and ensure power distribution works correctly**.
 
 **Use it to:**  
 - Check multi-component series circuits

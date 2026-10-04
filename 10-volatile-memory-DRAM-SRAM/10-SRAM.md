@@ -11,8 +11,8 @@ Microchip Tech: https://www.youtube.com/watch?v=kU2SsUUsftA&t=16s   -> more real
 
 **Key contrast:**
 
-- DRAM → capacitor + periodic refresh (leaks charge)
-- SRAM → transistor latch → stable while powered, no refresh
+- DRAM -> capacitor + periodic refresh (leaks charge)
+- SRAM -> transistor latch -> stable while powered, no refresh
 
 **Trade-offs:**
 

@@ -34,11 +34,11 @@
 
 # Usage
 - **N-type:**
-    - Extra electrons → current via electrons
+    - Extra electrons -> current via electrons
     - Likes **positive voltage**
     - Used for “pull-down” (connect to ground)
 - **P-type:**
-    - Missing electrons (holes) → current via holes
+    - Missing electrons (holes) -> current via holes
     - Likes **negative voltage**
     - Used for “pull-up” (connect to Vcc)
 see [05-MOSFET-CMOS-switch](05-MOSFET-CMOS-switch.md)

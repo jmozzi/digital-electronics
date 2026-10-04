@@ -22,7 +22,7 @@ green = LED(GREEN_LED_PIN)
 red = LED(RED_LED_PIN)
 ```
 
-- **`pull_up=True`** - internal pull-up, same **active-low** idea: released = high, pressed = connects to GND → **`is_pressed`** is `True`.
+- **`pull_up=True`** - internal pull-up, same **active-low** idea: released = high, pressed = connects to GND -> **`is_pressed`** is `True`.
 - **`bounce_time=DEBOUNCE_S`** - library-side debouncing (seconds), so mechanical chatter is filtered before `is_pressed` stabilizes.
 
 **`LED`** wraps a single output pin; **`.on()` / `.off()`** replace raw `GPIO.output`.
@@ -38,7 +38,7 @@ Same “first match in dict order” rule if two buttons were ever active at onc
 
 ## `wait_for_release()` / `wait_for_press()`
 
-Identical **structure** to the lgpio script: wait until nothing is pressed, then spin until something is pressed. **gpiozero** already applies **`bounce_time`** on the `Button` objects, so this pair mainly enforces **one tap → one step** and **release before the next press** (see [05-Debouncing](05-Debouncing.md)).
+Identical **structure** to the lgpio script: wait until nothing is pressed, then spin until something is pressed. **gpiozero** already applies **`bounce_time`** on the `Button` objects, so this pair mainly enforces **one tap -> one step** and **release before the next press** (see [05-Debouncing](05-Debouncing.md)).
 
 ## LED helpers
 
@@ -47,7 +47,7 @@ Identical **structure** to the lgpio script: wait until nothing is pressed, then
 
 ## Main loop and Konami logic
 
-Same as [04a](04a-Explain-Py-Code-lgpio.md): **RESET** clears the list (not in `KONAMI`); append + sliding window; prefix check → green/red; full sequence → **`green.on()`**, **`show_hire_me_fullscreen()`**, exit loop.
+Same as [04a](04a-Explain-Py-Code-lgpio.md): **RESET** clears the list (not in `KONAMI`); append + sliding window; prefix check -> green/red; full sequence -> **`green.on()`**, **`show_hire_me_fullscreen()`**, exit loop.
 
 ## Cleanup
 

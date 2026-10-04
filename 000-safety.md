@@ -11,17 +11,17 @@ Power supply from the mains power (power plug) is 230 V AC, and it gets stepped 
 		- assume *wet hands/high humidity* and resistance now `1 kOhm`
 			- then `I` = `120 / 1 kOhm` = `120 mA` = `0.12A`
 - affects on the human body
-	- **~1 mA** → barely perceptible
-	- **~5 mA** → noticeable shock
-	- **~10–20 mA** → muscle control loss (“can’t let go”)
-	- **~30–50 mA** → breathing interference possible
-	- **~50–100 mA** → risk of ventricular fibrillation begins
-	- **>100 mA** → high risk of death, especially with longer exposure
+	- **~1 mA** -> barely perceptible
+	- **~5 mA** -> noticeable shock
+	- **~10–20 mA** -> muscle control loss (“can’t let go”)
+	- **~30–50 mA** -> breathing interference possible
+	- **~50–100 mA** -> risk of ventricular fibrillation begins
+	- **>100 mA** -> high risk of death, especially with longer exposure
 
 ## 2. Only power on circuits when required (otherwise unplug)
 ## 3. Remove jewellery, as they are good conductors (jewellery can heat up)
 ## 4. Be mindful of capacitors
-see [004-capacitors-filters](10-memory-DRAM-SRAM/004-capacitors-filters.md)
+see [004-capacitors-filters](10-volatile-memory-DRAM-SRAM/004-capacitors-filters.md)
 - they can store electric charge on a circuit
 - can build up more powerful charge over time
 	- even after circuit is powered off
