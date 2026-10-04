@@ -16,7 +16,7 @@ The sequence to detect is:
 UP, UP, DOWN, DOWN, LEFT, RIGHT, LEFT, RIGHT, B, A
 ```
 
-Each step is one physical button press. **RESET** is not part of the Konami string; it only clears your progress in case the wrong buttons are pressed (see [Konami-Code-internal-pull-up-lgpio.py](Konami-Code-internal-pull-up-lgpio.py), or the [RPi.GPIO](Konami-internal-pull-up-rpigpio.py) variant).
+Each step is one physical button press. **RESET** is not part of the Konami string; it only clears my progress in case the wrong buttons are pressed (see [Konami-Code-internal-pull-up-lgpio.py](Konami-Code-internal-pull-up-lgpio.py), or the [RPi.GPIO](Konami-internal-pull-up-rpigpio.py) variant).
 
 ## GPIO pin map (BCM → action)
 
@@ -48,7 +48,10 @@ Buttons are placed **down the middle**, with legs on both sides of the **e | f**
 
 ## 4-pin tactile switches
 
-Each button has **four** legs. Two pairs are already connected **inside** the package (each pair is two legs on opposite sides of the ravine, e.g. **Nd** and **Ng** on one row); **not** pressed, those two pairs are isolated from each other; pressed, the two pairs connect (normally open between pairs). Wire so **GPIO** and **GND** (or **3.3 V**, for a pull-down layout) go to **different** pairs.
+Each button has **four** legs. Two pairs are already connected **inside** the package (each pair is two legs on opposite sides of the ravine, e.g. **Nd** and **Ng** on one row); 
+- **not** pressed, those two pairs are isolated from each other; 
+- pressed, the two pairs connect (normally open between pairs). 
+-> Wire so that **GPIO** and **GND** (or **3.3 V**, for a pull-down layout) go to **different** pairs.
 
 ![](../../images/20260412080824.png)
 
@@ -64,7 +67,7 @@ Set up the Pi (USB-C power, monitor, keyboard, mouse) as in [01-Prep-Raspberry-P
 **3.3 V to the red (+) rail:**
 
 - **Internal pull-ups ([Wiring option 1](#wiring-option-1--internal-pull-ups)):** you **do not** need 3.3 V on the breadboard for the buttons. The Pi’s internal resistors pull inputs toward 3.3 V inside the chip; your switches only connect inputs to **GND** when pressed.
-- **External pull-up resistors:** you **do** need a stable **3.3 V** on the breadboard: run a wire from **physical pin 1 (3.3 V)** to the **red (+) rail** (same rail-bridging idea as GND if your board splits the + rail).
+- **External pull-up resistors:** ([Wiring option 2](#wiring-option-2--external-pull-ups-or-pull-downs)) you **do** need a stable **3.3 V** on the breadboard: run a wire from **physical pin 1 (3.3 V)** to the **red (+) rail** (same rail-bridging idea as GND if your board splits the + rail).
 
 ## Wiring option 1 - Internal pull-ups
 
@@ -132,7 +135,7 @@ Unpressed, the internal pull-up holds the pin HIGH; pressed, the GPIO row is tie
 
 Use **two** separate chains (do **not** share one resistor between two GPIOs).
 
-For each LED: **GPIO pin → LED anode (long leg) → LED cathode (short leg) → resistor (~220 Ω-330 Ω) → blue − rail (GND)**.
+For each LED: **GPIO pin -> LED anode (long leg) -> LED cathode (short leg) -> resistor (~220 Ω-330 Ω) -> blue − rail (GND)**.
 
 **Example - green LED (BCM 18, physical pin 12 on Pi)** as wired on this board:
 
@@ -146,13 +149,13 @@ For the same **active-low** behavior as Option 1 (rest = HIGH, pressed = LOW), u
 
 ![](../../images/20260414132504.png)
 
-**External pull-down** (rest = LOW, pressed = HIGH) also works, but you would invert the read logic (`GPIO.HIGH` means pressed). There is no electrical need for pull-downs here unless you prefer that convention.
+**External pull-down** (rest = LOW, pressed = HIGH) also works, but you would invert the read logic (`GPIO.HIGH` means pressed). There is no electrical need for pull-downs though.
 
 ### External pull-up 
 
 Wiring see above
 
-**Software:** use plain inputs **without** internal pull-up, so you are not doubling up on pull-ups (if your RPi.GPIO version supports it, `pull_up_down=GPIO.PUD_OFF`; otherwise omit extra pull settings per your library docs).
+**Software:** use plain inputs **without** internal pull-up, so I don't double up on pull-ups (if RPi.GPIO version supports it, `pull_up_down=GPIO.PUD_OFF`; otherwise omit extra pull settings per library docs).
 
 ```python
 for pin in pins.values():
@@ -165,6 +168,8 @@ for pin in pins.values():
 Same as [Option 1 - LEDs](#breadboard-leds-same-for-both-wiring-options).
 
 ## Run the program
+- start with [04a-Explain-Py-Code-lgpio](04a-Explain-Py-Code-lgpio.md) (my main code); [04b-Explain-Py-Code-gpiozero](04b-Explain-Py-Code-gpiozero.md) and [04c-Explain-Py-Code-rpigpio](04c-Explain-Py-Code-rpigpio.md) cover the same logic with other libraries. 
+- more theory on pull resistors: [04-pull-up-pull-down-resistor](../../04-transistors/04-pull-up-pull-down-resistor.md).
 
 - Install (RPi.GPIO version): `sudo apt install python3-rpi.gpio` (package name may vary by OS image).
 - Internal pull-ups on the Pi (RPi.GPIO): `python3 Konami-internal-pull-up-rpigpio.py`
@@ -176,6 +181,3 @@ Use `sudo` only if your user is not in the `gpio` group and access fails.
 
 If wiring matches the tables, each correct Konami step blinks **green**, a wrong step blinks **red**, and **RESET** clears the sequence with a short **double green** flash.
 
-More detail on the script: 
-- start with [04a-Explain-Py-Code-lgpio](04a-Explain-Py-Code-lgpio.md) (main); [04b-Explain-Py-Code-gpiozero](04b-Explain-Py-Code-gpiozero.md) and [04c-Explain-Py-Code-rpigpio](04c-Explain-Py-Code-rpigpio.md) cover the same logic with other libraries. 
-- more theory on pull resistors: [04-pull-up-pull-down-resistor](../../04-transistors/04-pull-up-pull-down-resistor.md).

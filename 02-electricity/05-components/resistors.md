@@ -6,7 +6,7 @@ https://au.rs-online.com/web/content/discovery/ideas-and-advice/resistors-guide
 - safeguarding other components from excessive current.  
 A resistor impedes the flow of electric current in a circuit.   
 How? It creates a *voltage drop proportional to the current flowing through it and its resistance value*  
--> **Ohm's law**: `V = I x R `see [Ohms-law](Ohms-law.md)  
+-> **Ohm's law**: `V = I x R `see [Ohms-law](../02-electrical-laws/Ohms-law.md)  
 This resistance converts electrical energy into **heat**, effectively controlling the current.
 ## Properties of resistors
 - Resistance R - measured in Ohms: quantifies how strongly the resistor opposes the flow of electrical current.

@@ -2,7 +2,7 @@
 onto the Raspberry Pi 4 Model B - since the Pi is not pre-configured like a laptop. It is:
 - Just hardware
 - **No OS**, **no storage**, **no terminal**
--> I must set it up using a **MicroSD card** as hard drive that the Pi boots from
+-> I set it up using a **MicroSD card** as hard drive that the Pi boots from
 - microSD card (16GB+ recommended)
 - The "Model B" suffix indicates variants with an Ethernet port
 ## Steps
@@ -41,15 +41,16 @@ more on how to connect:
 https://randomnerdtutorials.com/installing-raspbian-lite-enabling-and-connecting-with-ssh/
 # First boot of Pi:
 Now connect:
-- microSD inserted ✔️
-- HDMI → monitor ✔️
-- USB keyboard ✔️
-- USB mouse ✔️
-- Power (USB-C) ✔️
+- microSD inserted 
+- HDMI connected to monitor 
+- USB keyboard
+- USB mouse 
+- Power (USB-C) 
 
--> The Pi will now boot into a **desktop environment**
--> I can open a terminal by clicking on the icon or:
--> Press `CTRL + ALT + T`
+-> The Pi will now boot into a **desktop environment**  
+- I can open a terminal by clicking on the icon or:
+- Press `CTRL + ALT + T`
+
 ## Install GPIO libraries
 
 The Konami scripts use Python to talk to the GPIO header. On current Raspberry Pi OS there are the following options of libraries to use:

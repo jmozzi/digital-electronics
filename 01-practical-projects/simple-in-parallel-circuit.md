@@ -1,3 +1,6 @@
+
+## Parallel Circuit
+In this scenario:
 - there are multiple paths through which the charge can flow
 - here the LEDs do not share the voltage
 - 9V measured from negative leg of LED1 to positive end circuit, and also 9 V from negative leg of LED2 to positive end of circuit
@@ -11,7 +14,7 @@ Voltage for each branch matches
 
 ![](../images/20260402144715.png)
 
-WHY those measurement -> Kirchhoff's Laws in action:
+## WHY those measurement -> Kirchhoff's Laws in action:
 - parallel circuit:
 	- voltage remains constant across both parallel circuits (K's voltage law)
 	- while current is split in proportion to the resistance (current has more than one path to flow)

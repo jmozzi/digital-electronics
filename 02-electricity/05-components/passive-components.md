@@ -15,7 +15,7 @@
 
 ### Common uses:  
 - **Pull-up / pull-down resistors (IoT):**
-    - Ensure a digital input is **not floating** (undefined voltage), see [[05-MOSFET-CMOS-switch]].
+    - Ensure a digital input is **not floating** (undefined voltage), see [05-MOSFET-CMOS-switch](../../04-transistors/05-MOSFET-CMOS-switch.md).
     - Example: A button input pin reads stable HIGH/LOW instead of random noise.
 - Current limiting (e.g., protecting LEDs).
 

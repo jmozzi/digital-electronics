@@ -6,7 +6,7 @@ Power supply from the mains power (power plug) is 230 V AC, and it gets stepped 
 	- the current is dependent on voltage and resistance:
 		- *dry undamaged skin* has pretty high resistance: ca `100kOhm`
 		- assume `9 v`, then current is `I` = `9 V / 100 000` = `0.00009` = `0.09 mA`  
-			- see Ohm's law [[01-terminology-concepts]]
+			- see Ohm's law [Ohms-law](02-electricity/02-electrical-laws/Ohms-law.md)
 		- assume `120 V`, then `I` = `120 V/100k Ohm` = `1.2 mA`
 		- assume *wet hands/high humidity* and resistance now `1 kOhm`
 			- then `I` = `120 / 1 kOhm` = `120 mA` = `0.12A`
@@ -21,7 +21,7 @@ Power supply from the mains power (power plug) is 230 V AC, and it gets stepped 
 ## 2. Only power on circuits when required (otherwise unplug)
 ## 3. Remove jewellery, as they are good conductors (jewellery can heat up)
 ## 4. Be mindful of capacitors
-see [[004-capacitors-filters]]
+see [004-capacitors-filters](10-memory-DRAM-SRAM/004-capacitors-filters.md)
 - they can store electric charge on a circuit
 - can build up more powerful charge over time
 	- even after circuit is powered off

@@ -7,5 +7,5 @@
 - In a resistor, electrical power is converted into heat.
 > Power is **total energy transferred per second**, '*how much work it can do per second*'.
 > Or: power is the rate at which energy is used or transferred.
-> **Energy**: total output, see [[energy-E]]
+> **Energy**: total output, see [energy-E](energy-E.md)
 > **Power**: output per second

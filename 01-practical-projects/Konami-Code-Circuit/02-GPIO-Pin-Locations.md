@@ -7,7 +7,7 @@ Or like this:
 
 # Wiring to breadboard (just power rails)
 
-Do this to power the breadboard and connect it to common GND:
+To power the breadboard and connect it to common GND:
 
 ```text
 Pin 1 (3.3 V) → breadboard (+ rail)

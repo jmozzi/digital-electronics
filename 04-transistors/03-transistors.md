@@ -29,13 +29,13 @@ Book: Introduction to Computer Organization  (R.G. Plantz)
 ## Standard cell
 - a few `transistors` together
 - fundamental building block of a CPU or GPU
-	- eg `2` transistors connected together, form an `inverter` standard cell see [[15-memory-vs-buffer-overflow#how the inverter works - standard cell| how inverters work]]
-	- `4` transistors connected together form a `NAND` Gate see [[15-memory-vs-buffer-overflow#NAND - AND followed by NOT| how NAND works]]
-	- `6` transistors form an `OR` gate see [[15-memory-vs-buffer-overflow#OR Gate - 6 transistors| how OR gates work]]
+	- eg `2` transistors connected together, form an `inverter` standard cell see [how inverters work](../06-logic-gates/03-NOT-gate-inverter.md)
+	- `4` transistors connected together form a `NAND` Gate see [how NAND works](../06-logic-gates/04-NAND-gate-4-transistors.md)
+	- `6` transistors form an `OR` gate see [how OR gates work](../06-logic-gates/06-OR-gate-6-transistors.md)
 ## Macrocell (or Modules, Functional Blocks/Units)
 - a few standard cells put together, 
 - wide range of macrocells (some with multiple thousand standard cells)
-- 160 standard cells to create eg an `Adder` Macrocell that can add two numbers together see [[15-memory-vs-buffer-overflow#full adder - overflow signal| adder]]
+- 160 standard cells to create eg an `Adder` Macrocell that can add two numbers together see [adder](../06-logic-gates/11-full-adder.md)
 
 ![20251106121401](../images/20251106121401.png)
 - to connect all those standard cells together it needs:

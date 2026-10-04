@@ -2,7 +2,7 @@
 ## conductors and insulators
 ### silicon
 - `silicon` is an `insulator` as it
-	- has *4 `valence` electrons* (remember [[atomic-structure-and-electricity]])
+	- has *4 `valence` electrons* (remember [atomic-structure-and-electricity](../02-electricity/01-electrical%20concepts/atomic-structure-and-electricity.md))
 	- when Silicon atoms come together these valence electrons like to pair up tightly, a `crystal lattice`
 	- *no free electrons* to move -> `insulator`
 	- if we try pass current through it, it won't work --> insulator
@@ -41,4 +41,4 @@
     - Missing electrons (holes) → current via holes
     - Likes **negative voltage**
     - Used for “pull-up” (connect to Vcc)
-see [[05-MOSFET-CMOS-switch]]
+see [05-MOSFET-CMOS-switch](05-MOSFET-CMOS-switch.md)

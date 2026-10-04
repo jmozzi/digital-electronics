@@ -19,7 +19,7 @@ ok, and that all means.... what?:
 	- hence we need to *pull it down to GND* or *pull it up* to VCC using a resistor
 ### Pull-down resistor: 
 close switch -> `high`, open switch -> `low` thanks to `pull down resistor`
-but that's just a convention; could be the other way around: register `low` when circuit is closed (`normally closed switches`), otherwise for `normally open switches` use [[#Pull-up resistor]]
+but that's just a convention; could be the other way around: register `low` when circuit is closed (`normally closed switches`), otherwise for `normally open switches` use [Pull-up resistor](#pull-up-resistor)
 - When button is not pressed, the resistor connects the signal line to **GND** (`0V`); it's not floating anymore
 - Ensures that the line “`idles low`” when nothing is pulling it high.
 - Common example: `Enable` pins, `chip select` lines, sometimes logic inputs.

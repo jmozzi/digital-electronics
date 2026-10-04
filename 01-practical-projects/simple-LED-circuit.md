@@ -21,7 +21,7 @@ Different coloured LEDs need different voltage for them to light up and the foll
 If I give the LED the appropriate voltage with my power supply, the LED should just draw the appropriate current it needs (amperage) even if the power supply could supply a much higher current. 
 If I can control the voltage to just stay within what the LED can handle, it's all fine, but if the voltage is higher than that:
 - the amperage goes high fast with just a tiny voltage increase
-- LED burns out, cause `power = I x V `and this creates heat see [power-formula](power-formula.md)
+- LED burns out, cause `power = I x V `and this creates heat see [power-formula](../02-electricity/02-electrical-laws/power-formula.md)
 - and then amperage drops after LED burnt out
 > In a real circuit we don't have perfect control and we need a resistor to limit the current.
 
@@ -36,7 +36,7 @@ That means, the battery has a voltage drop of 5 V (providing that voltage), and 
 If I add a resistor and I want the LED to consume 1.9 V (to be safe) then the resistor will consume 3.1 V. **The circuit settles at a current where the LED drop (~1.9V) is satisfied**. The resistor drops the rest. 
 ## How to figure out which resistor to use - Ohm's law in action
 What resistor to chose in my designs?
-> Ohm's law: `V = I x R` see [Ohms-law](Ohms-law.md)
+> Ohm's law: `V = I x R` see [Ohms-law](../02-electricity/02-electrical-laws/Ohms-law.md)
 
 - I know the voltage for the resistor should be 3.1 V, we know the current (from manufacturer), is 0.02 A
 - 3.1 V = 0.02 A X R

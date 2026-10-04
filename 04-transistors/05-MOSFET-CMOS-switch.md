@@ -1,8 +1,8 @@
-I've learnt about N-type and P-type material in [[01-conductors-insulators]], now we use that to build transistors:
+I've learnt about N-type and P-type material in [01-conductors-insulators](01-conductors-insulators.md), now we use that to build transistors:
 # MOSFET switch
 - `metal-oxide-semiconductor field-effect transistor`
 - there are several types of MOSFET that use different voltage levels and polarities
-- basic material: doped silicon (see [[01-conductors-insulators]]
+- basic material: doped silicon (see [01-conductors-insulators](01-conductors-insulators.md)
 - main conduction path through a MOSFET is the `channel`, which is connected between the `source` and the `drain` (output) terminals
 - the `gate` (input) is made from the opposite type of semiconductor and controls the conductivity through the channel
 # CMOS switch (FinFet)
