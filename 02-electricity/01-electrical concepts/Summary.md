@@ -8,7 +8,7 @@ Energy is determined by **how much current the voltage can push**, which depends
 - P = I × V 
 - V = I × R
 - E = P × t
-- Ohm’s law: I = V / R -> higher resistance -> less current -> less power -> less energy transferred per second, see [Ohms-law](../02-electrical-laws/Ohms-law.md), [Kirchhoff's-voltage-law-KVL](../02-electrical-laws/Kirchhoff's-voltage-law-KVL.md), [Kirchhoff's-current-law-KCL](../02-electrical-laws/Kirchhoff's-current-law-KCL.md)
+- Ohm’s law: I = V / R -> higher resistance -> less current -> less power -> less energy transferred per second, see [Ohms-law](../02-electrical-laws/01-Ohms-law.md), [Kirchhoff's-voltage-law-KVL](../02-electrical-laws/03-Kirchhoff's-voltage-law-KVL.md), [Kirchhoff's-current-law-KCL](../02-electrical-laws/02-Kirchhoff's-current-law-KCL.md)
 
 |Law|Purpose|What it calculates|
 |---|---|---|

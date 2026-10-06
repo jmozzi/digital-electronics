@@ -6,7 +6,7 @@ Power supply from the mains power (power plug) is 230 V AC, and it gets stepped 
 	- the current is dependent on voltage and resistance:
 		- *dry undamaged skin* has pretty high resistance: ca `100kOhm`
 		- assume `9 v`, then current is `I` = `9 V / 100 000` = `0.00009` = `0.09 mA`  
-			- see Ohm's law [Ohms-law](02-electricity/02-electrical-laws/Ohms-law.md)
+			- see Ohm's law [Ohms-law](02-electricity/02-electrical-laws/01-Ohms-law.md)
 		- assume `120 V`, then `I` = `120 V/100k Ohm` = `1.2 mA`
 		- assume *wet hands/high humidity* and resistance now `1 kOhm`
 			- then `I` = `120 / 1 kOhm` = `120 mA` = `0.12A`

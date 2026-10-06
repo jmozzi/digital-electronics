@@ -22,3 +22,6 @@ source: Book Plantz, Intro to computer org
 - all of the above
 - **Resistance** is the opposition to current in **DC** (steady state). **Impedance** is the total opposition to current in **AC** (changing state).
 > **The Formula Concept:** Impedance (Z) combines Resistance (R) and **Reactance** (X). Reactance is the "resistance" provided specifically by capacitors and inductors because of the frequency of the signal.
+
+
+also see [004-capacitors-filters](../../10-volatile-memory-DRAM-SRAM/004-capacitors-filters.md)

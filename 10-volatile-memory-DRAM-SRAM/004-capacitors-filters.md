@@ -1,12 +1,13 @@
 source: TCM IoT course
 # Short
 - Capacitors: hate change in voltage, block DC, loves High Frequency
-- in DC circuits: like mini batteries, store energy in their electric field
+- in DC circuits: 
+	- capacitors are like mini batteries, store energy in their electric field
 	- for short dips in voltage or short power cuts, or to smooth out rapid changes in voltage
-	- `Capacitance` `C`, measured in `Farads` = is the ability/property of the capacitor to hold onto this charge
+	- `Capacitance` `C`, measured in `Farads` is the ability/property of the capacitor to hold onto this charge
 	- we usually count in `micro Farads` (as Farads are a large unit of measurement) or even `nano` or `picofarads`
 	- when capacitor is in steady state, there is no current flowing
-- for alternating current:
+- for AC alternating current:
 	- transfer its charges over 'the gap', but not by passing electrons THROUGH the gap, but the capacitor will charge up, then discharge and the imbalance will allow us to transfer the current over to the other side
 - can be used like filters
 	- can block certain frequencies from going through circuit (comms signals, square wave with different frequencies, or interference)
@@ -39,7 +40,7 @@ source: TCM IoT course
 - Electrolytics can **age**, drying out over 5–20 years depending on quality, use, and temperature.
 - Heat accelerates degradation. Use high-temp rated caps (105°C or more) for better lifespan.
 
-![20250815142920](../images/20250815142920.png)
+![20261006082024](../images/20261006082024.png)
 ### disk ceramic capacitor
 - great for fairly low capacitance
 - very cheap to make
@@ -50,7 +51,7 @@ source: TCM IoT course
 - Physically larger spacing between leads = better for isolation
 - Easier to use in DIY or high-reliability designs
 
-![20250815142936](../images/20250815142936.png)
+![20261006082041](../images/20261006082041.png)
 ### surface mount capacitor (ceramic)
 - **Non-polarized**: Can go in either direction (unlike electrolytic caps)
 - **Stable**: Good for high-frequency applications
@@ -61,4 +62,4 @@ Examples:
 - In a row near an antenna circuit? -> Likely part of an **RF filter or matching network**.
 - Along a power input line? -> Likely **bulk filtering** (with other caps/inductors).
 
-![20250815142951](../images/20250815142951.png)
+![20261006082056](../images/20261006082056.png)

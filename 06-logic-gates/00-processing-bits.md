@@ -1,4 +1,5 @@
 ## Where are transistors & logic gates used in computing
+![20261005200933](../images/20261005200933.png)
 ### processing bits - the computing fabric - CPU
 - transistors wired as logic gates that process bits
 - do maths / decisions
@@ -12,7 +13,7 @@
 - that's why it is volatile and needs refresh. See [009-DRAM](../10-volatile-memory-DRAM-SRAM/009-DRAM.md).
 #### disk - HDD - hard disk drives 
 - storage is magnetic spinning platters.
-- storage is not transistor logic gate cells.
+- storage is **not transistor logic** gate cells.
 - but the drive still has a controller board with chips/transistors ;)
 - persistent storage, survives reboots.
 #### disk - SSDs - flash memory chips / solid state drives
