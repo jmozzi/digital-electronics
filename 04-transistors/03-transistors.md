@@ -3,7 +3,7 @@ CoreDumped https://www.youtube.com/watch?v=HjneAhCy2N4&t=2s (free)
 Branch Education: https://www.youtube.com/watch?v=_Pqfjer8-O4&t=602s (free)
 Book: Introduction to Computer Organization  (R.G. Plantz)
 # what are transistors
-![20251001104630](../images/20251001104630.png)
+![20261008090206](../images/20261008090206.png)
 - transistor is a device whose resistance can be controlled electronically, hence *active component*
 - transistors are inside of processors/integrated circuits (millions and billions)
 - Moore's law: every year the max amount of transistors we can fit on ICs (single wafer of silicone, the material ICs are made of) will double
@@ -16,15 +16,14 @@ Book: Introduction to Computer Organization  (R.G. Plantz)
 ## NPN Bipolar Junction Transistor (BJT)
 - 3 leads/inputs
 
-![20251001105105](../images/20251001105105.png)
+![20261008090145](../images/20261008090145.png)
 ## PNP Bipolar Junction Transistor (BJT)
-![20251001105315](../images/20251001105315.png)
+![20261008090130](../images/20261008090130.png)
 
 ## Field Effect Transistor (FET) - MOSFET
 - Drain, Gate, Source
 
-![20251001105437](../images/20251001105437.png)
-
+![20261008090118](../images/20261008090118.png)
 
 ## Standard cell
 - a few `transistors` together
@@ -37,11 +36,11 @@ Book: Introduction to Computer Organization  (R.G. Plantz)
 - wide range of macrocells (some with multiple thousand standard cells)
 - 160 standard cells to create eg an `Adder` Macrocell that can add two numbers together see [adder](../06-logic-gates/11-full-adder.md)
 
-![20251106121401](../images/20251106121401.png)
+![20261008085614](../images/20261008085614.png)
 - to connect all those standard cells together it needs:
 	- a higher layer of vertical `vias` and wires, called `Metal 1` or `M1`  
 
-![20251106121642](../images/20251106121642.png)
+![20261008085427](../images/20261008085427.png)
 - multiplication is more complex, so for 32-bit multiplication we have a `macrocell` built from `6100` standard cells 
 ## IP Core
 - multiple `macrocells` build an `IP core`
@@ -52,9 +51,9 @@ Book: Introduction to Computer Organization  (R.G. Plantz)
 - which can be found inside the CPU mounted onto a motherboard
 - processors have 10s of billions of transistors  
 
-![20251106122355](../images/20251106122355.png)
+![20261008085352](../images/20261008085352.png)
 - they use about *17 metal layers of wires* connected together
 	- to form the `Macrocells`, `IP cores`, `cores` and other sections of the CPU
 
-![20251107085621](../images/20251107085621.png)
+![20261008085303](../images/20261008085303.png)
 

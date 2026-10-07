@@ -2,7 +2,6 @@
 - takes an input of `1` and outputs `0`
 - and vice versa
 - 2 transistors built on top of a silicon base
-- have to understand `N-type` and `P-type` transistors first:
 symbol:
 
 ![20251101185050](../images/20251101185050.png)      
@@ -41,6 +40,6 @@ details:
 > so, when `1` Volt is applied to the input, the output is connected to the ground rail
 > when `0` Volt is applied to the input, the output is connected to the power rail
 
-![20251105205715](../images/20251105205715.png)  ![20251105205731](../images/20251105205731.png)
+![20261008092044](../images/20261008092044.png)  
 
 

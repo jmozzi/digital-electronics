@@ -7,7 +7,7 @@
 	- *no free electrons* to move -> `insulator`
 	- if I try pass current through it, it won't work --> insulator
 
-![20251106143945](../images/20251106143945.png)
+![20261008090246](../images/20261008090246.png)
 ### doping
 - if we mix `silicon` with other elements we can change that property 
 - and create a `semi-conductor` used to build transistors
@@ -20,7 +20,7 @@
 	- we've created a current, and it is *moving towards positive voltages*
 - N-Type silicon has `electrons` as majority carriers
 
-![20251106144217](../images/20251106144217.png)
+![20261008091248](../images/20261008091248.png)
 #### P-Type silicon - electron holes
 - now we add `Boron`
 	- 3 valence electrons
@@ -30,7 +30,7 @@
 	- a hole behaves like a positive charge; and in P-type material, current appears to flow because holes move towards the negative terminal
 - P-Type has `holes` as majority carriers
 
-![20251106144718](../images/20251106144718.png)
+![20261008091301](../images/20261008091301.png)
 
 # Usage
 - **N-type:**
