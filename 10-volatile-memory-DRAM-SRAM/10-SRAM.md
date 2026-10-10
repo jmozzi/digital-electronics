@@ -27,28 +27,33 @@ Cache Memory and Registers inside the CPU are made of transistors
 incredibly fast access times and high bandwitdh
 
 ## registers - D-Flip-Flops
-- registers store bits in D-Flip-Flops
-![20261005171128](../images/20261005171128.png)
+- registers store bits in D-Flip-Flops  
 
+![20261005171128](../images/20261005171128.png)
 - using 16 transistors per bit
 - each register is ca 64 bits wide
 - each processing core contains 32 registers, or entries, in a register file
+
 ![20261005171204](../images/20261005171204.png)
 
-Why are register files rather small?
+## Why are register files rather small?
 - 32 registers are addressed using 5 bits within the instructions themselves
 	- increasing number of registers would require longer instructions
 	- that's why register files are rather small
+
 ![20261005171743](../images/20261005171743.png)
 
 - also bigger register files would need more wiring, a bigger decoder and more ports
+
 ![20261005171716](../images/20261005171716.png)
 
 - registers sit directly next to the execution units and the arithmetic logic unit
 - and then spread across the table are the different cache levels and sizes
+
 ![20261005171929](../images/20261005171929.png)
 ## Cache memory - SRAM
 - cache memory uses 6 transistors per bit, assembled into SRAM cell
+
 ![20261005170837](../images/20261005170837.png)
 
 - multipy 6 transistors by 36 megabytes in the L3 cache, we get 1.8 billion transistors

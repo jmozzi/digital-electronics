@@ -35,6 +35,7 @@ Prefetching
 - when plugged in, the DRAM is directly connected to the CPU via 2 x memory channels that run through the mother board 
 - inside the CPU is the DRAM interface, a memory controller which manages and communicates with DRAM
 - for DDR5, each memory channel is divided into 2 parts, `Channel A`, and `Channel B`
+
 ![20261006083957](../images/20261006083957.png)
 - these memory channels independently transfer 32 bits at a time using 32 data wires
 - there are 21 additional wires, each memory channel carries an address specifying where to read or write data and
@@ -74,6 +75,7 @@ Opening up one of those 8 DRAM chips it'll look something like this
 - interconnection layers and 
 - an integrated circuit containing 32 banks (the die, also called `integrated circuit`)
 - organised into 8 bank groups (in the case of a 2GB DRAM Die)
+
 ![20261005165115](../images/20261005165115.png)
 
 ![20261006084841](../images/20261006084841.png)
@@ -82,6 +84,7 @@ Opening up one of those 8 DRAM chips it'll look something like this
 - is a huge array, consisting of ca 65000 by 8000 memory cells
 - basically rows and columns in a grid
 - with a ton of circuitry around it
+
 ![20261005165158](../images/20261005165158.png)
 
 ## overview of how it all works together
@@ -97,13 +100,16 @@ Opening up one of those 8 DRAM chips it'll look something like this
 - optimisation: this 31-bit address is separated into 2 parts and sent using only 21 wires:
 	- first, the bank group, bank, and row address are sent 
 	- then the column address
+
 ![20261006085828](../images/20261006085828.png)
 # how DRAM memory cells are organised - `1T1C` cell
-`1T1C` means 1 transistor + 1 capacitor per bit
-a few dozen nanometres in size
+- `1T1C` means 1 transistor + 1 capacitor per bit
+- a few dozen nanometres in size
+
 ![20261005165312](../images/20261005165312.png)
 
 - 1 bit is stored as charge in each capacitor and the transistor is used to access that data
+
 ![20261005164241](../images/20261005164241.png)
 
 has 2 parts:
@@ -128,6 +134,7 @@ has 2 parts:
 		- connects to the gate of the transistor
 	- the bitline wire (columns)
 		- connects to the other side of the transistor's channel
+
 ![20261005164515](../images/20261005164515.png)
 
 - applying voltage to the wordline 
@@ -138,6 +145,7 @@ has 2 parts:
 ![20261006091007](../images/20261006091007.png)
 
 - and we can `read` the capacitor by measuring the amount of charge
+
 ![20261006091211](../images/20261006091211.png)
 
 - but if wordline is off, then the transistor is off, and the capacitor is isolated from the bitline, 
@@ -147,6 +155,7 @@ has 2 parts:
 - each of the wordlines is connected in rows
 - and the bitlines are connected incolumns
 - they are both on different vertical layers, so they cross over each other but don't touch
+
 ![20261006093917](../images/20261006093917.png)
 
 ## wordlines and bitlines
@@ -244,27 +253,33 @@ So, if we read from a group of memory cells, then this happens:
 
 - the next step turns off all wordlines in that bank, thereby isolating all capacitors
 	- then precharge all 8000 ish bitlines to 0.5 volts
+
 ![20261006115507](../images/20261006115507.png)
 - next the 16-bit row address turns on a row 
 	- and all capactors in that row are on and connected to their bitlines
 - if an individual capacitor holds a `1` and is charged to `1 volt`, 
 	- then some charge flows from that capacitor onto the 0.5 volt bitlines and the voltage on the bitline increases
 	- the sense amplifier detects this slight change of voltage on the bitline, amplifies tha change and pushes the voltage on the bitline all the way up to 1 volt
+
 ![20261006115551](../images/20261006115551.png)   ![20261006115632](../images/20261006115632.png)   
 
 - but if `0` is stored in the capacitor, 
 	- charge flows from the bitline into the capactor, and the 0.5 volt bitline decreases in voltage
 	- the sense amplifier detects this slight change of voltage on the bitline, amplifies it and drives the bitline voltage down to `0` volt or ground.
+
 ![20261006115826](../images/20261006115826.png)    ![20261006115910](../images/20261006115910.png)
 
 - now all 8000 ish bitlines are driven to `1V` or `0V` corresponding to the stored charge in the capacitors of the activated row
 	- and this row is considered open
+
 ![20261006120026](../images/20261006120026.png)
 
 - next the `column select multiplexer` uses the 10-bit column address to connect the corresponding 8 bitlines to the read driver 
+
 ![20261006120236](../images/20261006120236.png)
 
 - which then sends these 8 values and voltages over the 8 data wires to the CPU
+
 ![20261006120312](../images/20261006120312.png)
 
 ## writing to memory cells
@@ -275,6 +290,7 @@ So, if we read from a group of memory cells, then this happens:
 - and the bitlines pre-charged to 0.5 V
 - then using a 16-bit address, a single row is activated, the capacitors perturb the bitline and the sense amplifiers sense this and drive he bitlines to 1 or 0 thus opening the row
 - next, the column address goes to the multiplexer
+
 ![20261006141853](../images/20261006141853.png)
 
 Now things are different:
@@ -286,6 +302,7 @@ Now things are different:
 	- and drive each of the 8 bitlines to 1 V (for a 1 to be written) or 0 V (for a 0)
 	- this new bitline voltage **overrides** the previously stored charge in each of the 8 capacitors in the open row
 > this is how we write 8 bits of data to the memory cells corresponding to the 31-bit address
+
 ![20261006141957](../images/20261006141957.png)
 
 ![20261006142205](../images/20261006142205.png)
@@ -294,12 +311,14 @@ Now things are different:
 	- using the same 31-bit address
 	- and command wires
 	- BUT with different data wires for each chip
+
 ![20261006142446](../images/20261006142446.png)
 
 - Second, with DDR5 for a binary 1 
 	- the voltage is actually 1.1 volts, for DDR4 it’s 1.2 volts,  and prior generations had even higher voltages,  
 	- with the bitline precharge voltages being  half of these voltages.  
 	- However, for DDR5,  when writing or refreshing a higher voltage,  around 1.4 volts is applied and stored in each capacitor for a binary 1 because charge leaks  out over time. However, for simplicity, we’re going to stick with 1 and 0.
+
 ![20261006142553](../images/20261006142553.png)
 
 - Third, the number of bank groups, bankd, bitlines and wordlines varies between generations of chips, but is always in powers of 2.

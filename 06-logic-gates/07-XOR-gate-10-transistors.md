@@ -10,6 +10,7 @@
 		- this means the NAND gate is output `0` only if both inputs are `1`, which is the opposite of the AND gate
 	- AND gate
 
+![](Pasted%20image%2020261008100825.png)
 
 XOR:
 
